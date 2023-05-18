@@ -1,0 +1,22 @@
+---
+layout: main.njk
+title: Find an Airport Piano
+---
+
+<h1>{{title}} 🎹</h1>
+
+<p>This page lists pianos that have been confirmed to be in airports around the world.</p>
+
+<p>The `confirmed` date refers to the last time the piano was seen by a community member.</p>
+
+<p>For more airport pianos, check out <a href="https://pianos.pub">pianos.pub</a> and search for your local airport.</p>
+
+<p>Don't see your piano here? Submit a request for a piano; we'll tally these up to guage interest.</p>
+
+<h2>Pianos</h2>
+
+<ul>
+    {% for airport in airports %}
+    <li><a href="/airports/{{airport.iata}}">{{airport.name}}</a> ({{airport.iata}})</li>
+    {% endfor %}
+</ul>

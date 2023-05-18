@@ -12,5 +12,19 @@
         "pianoShortLocation": "Gate C17",
         "lastConfirmed": "April 2023",
         "description": "A grand piano is available for public use at Gate C17."
+    },
+    {
+        "iata": "EDI",
+        "name": "Edinburgh Airport",
+        "city": "Edinburgh",
+        "state": "Scotland",
+        "country": "United Kingdom",
+        "lat": "55.950136",
+        "lon": "-3.372947",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Departures",
+        "lastConfirmed": "April 2023",
+        "description": "A grand piano is available for public use in the Departures area."
     }
 ]
