@@ -5,7 +5,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Airport Pianos</title>
+        <title>{{ title }}</title>
 
         <meta name="description" content="Resources to help donate pianos to airports.">
 
@@ -876,15 +876,43 @@ crossorigin=""></script>
             color: #999;
             font-size: 14px;
         }
+        .container {
+            background-color: rgba(0,0,0,0.8);
+            padding: 20px;
+            color: white;
+            text-align: center;
+            position: absolute;
+        }
+        .container h1 {
+            font-size: 40px;
+            margin: 0;
+        }
+        .hero-inner {
+            max-width: 50em;
+            margin: 0 auto;
+            padding-top: 50px;
+        }
+        .nav-right {
+            float: right;
+        }
     </style>
     <body>
         <nav>
             <div class="nav-inner">
-                <a href="/">Home</a>
-                <a href="/pianos">Find a Piano</a>
+                <a href="/">Airport Pianos</a>
+                <div class="nav-right">
+                    <a href="/about">About</a>
+                    <a href="/pianos">Find a Piano</a>
+                </div>
             </div>
         </nav>
-        <div id="hero"></div>
+        <div id="hero">
+            <div class="hero-inner">
+                <div class="container">
+                    <h1>{{ title }}</h1>
+                </div>
+            </div>
+        </div>
         <main>
             {{ content | safe }}
         </main>
