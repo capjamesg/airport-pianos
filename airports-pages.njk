@@ -1,81 +1,91 @@
 ---
-layout: main.njk
+layout: maps.njk
 pagination:
     data: airports
     size: 1
     alias: airport
 permalink: "pianos/{{ airport.iata | lower }}/"
-title: "{{ airport.name }}"
 url: "{{site.url}}/pianos/{{ airport.iata | lower }}/"
+noHero: true
 ---
 
-<p class="breadcrumbs"><a href="/">Airport Pianos</a> &gt; <a href="/pianos">Find a Piano</a> &gt; {{ airport.name }}</p>
+<div id="hero">
+    <div class="hero-inner">
+        <div class="container">
+            <h1>{{ airport.name | safe }}</h1>
+        </div>
+    </div>
+</div>
 
-<article class="h-entry">
-    <style>
-        #map { height: 200px; max-width: 35em; }
-    </style>
+<main>
+    <p class="breadcrumbs"><a href="/">Airport Pianos</a> &gt; <a href="/pianos">Find a Piano</a> &gt; {{ airport.name }}</p>
 
-    <h1>{{ airport.name }} ({{ airport.iata }})</h1>
+    <article class="h-entry">
+        <style>
+            #map { height: 200px; max-width: 35em; }
+        </style>
 
-    <p>Location: {{ airport.city }}, {{ airport.country }}</p>
+        <h1 class="p-name">{{ airport.name }} ({{ airport.iata }})</h1>
 
-    <div id="map"></div>
+        <p>Location: {{ airport.city }}, {{ airport.country }}</p>
 
-    <h2>Pianos at {{ airport.name }}</h2>
+        <div id="map"></div>
 
-    <p>{{ airport.description }}</p>
+        <h2>Pianos at {{ airport.name }}</h2>
 
-    <script>
-        var map = L.map('map').setView([{{ airport.lat }}, {{ airport.lon }}], 13);
-        const tiles = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
+        <p>{{ airport.description }}</p>
 
-        L.marker([{{ airport.lat }}, {{ airport.long }}]).addTo(map)
-            .bindPopup('{{ airport.name }} ({{ airport.iata }})');
-    </script>
+        <script>
+            var map = L.map('map').setView([{{ airport.lat }}, {{ airport.lon }}], 13);
+            const tiles = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
 
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [{
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Airport Pianos",
-            "item": "https://airportpianos.org"
-        },{
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Find a Piano",
-            "item": "https://airportpianos.org/pianos"
-        },{
-            "@type": "ListItem",
-            "position": 3,
-            "name": "{{ airport.name }}",
-            "item": "https://airportpianos.org/{{ airport.iata }}"
-        }]
-        }
-    </script>
+            L.marker([{{ airport.lat }}, {{ airport.long }}]).addTo(map)
+                .bindPopup('{{ airport.name }} ({{ airport.iata }})');
+        </script>
 
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [{
-            "@type": "Question",
-            "name": "Does {{ airport.name }} have a piano?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "{% if airport.hasPiano %}Yes{% else %}No{% endif %}, {{ airport.description }}."
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Airport Pianos",
+                "item": "https://airportpianos.org"
+            },{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Find a Piano",
+                "item": "https://airportpianos.org/pianos"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "{{ airport.name }}",
+                "item": "https://airportpianos.org/{{ airport.iata }}"
+            }]
             }
-        }, {
-            "@type": "Question",
-            "name": "Where is the piano at {{ airport.name }}?",
-            "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "{{ airport.pianoShortLocation }}."
+        </script>
+
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [{
+                "@type": "Question",
+                "name": "Does {{ airport.name }} have a piano?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "{% if airport.hasPiano %}Yes{% else %}No{% endif %}, {{ airport.description }}."
+                }
+            }, {
+                "@type": "Question",
+                "name": "Where is the piano at {{ airport.name }}?",
+                "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "{{ airport.pianoShortLocation }}."
+                }
+            }]
             }
-        }]
-        }
-    </script>
-</article>
+        </script>
+    </article>
+</main>

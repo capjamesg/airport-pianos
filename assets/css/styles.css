@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+p, li {
+    line-height: 1.5;
+}
+nav {
+    background-color: #734f96;
+    color: white;
+    padding: 20px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav > *, main, footer {
+    max-width: 50em;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 50px;
+    color: white;
+}
+code {
+    background-color: #eee;
+    padding: 2px 4px;
+}
+a {
+    color: #734f96;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+#hero {
+    background-image: url('https://images.pexels.com/photos/1246437/pexels-photo-1246437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+nav a:hover, nav a:focus {
+    color: yellow;
+    text-decoration: none;
+    background-color: black;
+}
+.breadcrumbs {
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 14px;
+}
+.container {
+    background-color: rgba(0,0,0,0.8);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+}
+.container h1 {
+    font-size: 40px;
+    margin: 0;
+}
+.hero-inner {
+    max-width: 50em;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.nav-right {
+    float: right;
+}
+@media (max-width: 600px) {
+    nav {
+        padding: 10px;
+    }
+    nav a {
+        margin-right: 10px;
+    }
+    main, footer {
+        padding: 0 10px;
+    }
+}
