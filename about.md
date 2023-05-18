@@ -18,4 +18,4 @@ I'd love your help to expand this project. Here are some ways you can contribute
 - Share your advice on donating a piano to an airport;
 - Donate a piano to your local airport!
 
-You can reach me at [james [at] airportpianos.org](https://airportpianos.org)
+You can reach me at [james [at] airportpianos [dot] org](mailto:james@airportpianos.org)
