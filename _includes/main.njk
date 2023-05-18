@@ -28,9 +28,15 @@
                 text-decoration: none;
                 margin-right: 20px;
             }
-            nav > *, main {
+            nav > *, main, footer {
                 max-width: 50em;
                 margin: 0 auto;
+            }
+            footer {
+                margin-top: 50px;
+                padding: 20px;
+                background-color: #734f96;
+                color: white;
             }
         </style>
     </head>
@@ -44,5 +50,8 @@
         <main>
             {{ content | safe }}
         </main>
+        <footer>
+            <p><a href="https://github.com/capjamesg/airport-pianos">Contribute to help improve this page</a></p>
+        </footer>
     </body>
 </html>
