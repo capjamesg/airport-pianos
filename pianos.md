@@ -13,10 +13,10 @@ For more airport pianos, check out [pianos.pub](https://pianos.pub) and search f
 
 Don't see your piano here? Submit a request for a piano; we'll tally these up to guage interest.
 
-## North America
+## Pianos
 
-- Chicago O'Hare International Airport (ORD) (Confirmed: April 2023)
-
-## Europe
-
-- Edinburgh Airport (EDI) (Confirmed: April 2023)
+<ul>
+    {% for piano in collections.airports %}
+    <li>{{ piano.name }}</li>
+    {% endfor %}
+</ul>
