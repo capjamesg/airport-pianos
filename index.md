@@ -15,15 +15,35 @@ This site is a collection of resources for piano donors. We hope to, over time, 
 
 ## How to Contact an Airport
 
-_Help wanted_: We're actively looking to improve this section. Please reach out to [capjamesg](https://jamesg.blog) if you have knowledge pertinent to this section.
+### Finding Contact Information
+
+- Contact the media relations department if one is advertised on the airport's website;
+- Contact the organization that operates the terminal. For example, the terminals at Des Moines International Airport are administered by the Des Moines Airport Authority. The terminal operator can advise on the best way to proceed.
+
+### Facilitating an Ask
+
+When emailing an airport, you should cover:
+
+- An ask on whether the airport is interested in a piano;
+- Whether you have a personal piano to donate, or are willing to donate a piano on behalf of an organization;
+- Whether you are willing to pay for the piano to be moved to the airport;
+- Asn ask on the logistics of moving the piano to the airport.
+
+_*Help wanted*: We're actively looking to improve this section. Please reach out to [capjamesg](https://jamesg.blog) if you have knowledge pertinent to this section._
 
 ## Costs Associated with Donating a Piano
 
-_Help wanted_: We're actively looking to improve this section. Please reach out to [capjamesg](https://jamesg.blog) if you have knowledge pertinent to this section.
+Potential costs:
+
+- Piano purchase
+- Tuning (if required)
+- Moving the piano to the airport
+
+_*Help wanted*: We're actively looking to improve this section. Please reach out to [capjamesg](https://jamesg.blog) if you have knowledge pertinent to this section._
 
 ## Logistics of Donating a Piano
 
-_Help wanted_: We're actively looking to improve this section. Please reach out to [capjamesg](https://jamesg.blog) if you have knowledge pertinent to this section.
+_*Help wanted*: We're actively looking to improve this section. Please reach out to [capjamesg](https://jamesg.blog) if you have knowledge pertinent to this section._
 
 ## Contributing ✍️
 
