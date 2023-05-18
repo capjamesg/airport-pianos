@@ -16,8 +16,8 @@ permalink: /pianos/
 
 <h2>Pianos</h2>
 
-<ul>
+<ul class="h-feed">
     {% for airport in airports %}
-    <li><a href="/airports/{{airport.iata}}">{{airport.name}}</a> ({{airport.iata}})</li>
+    <li class="h-entry"><a href="/airports/{{airport.iata}}" class="u-url p-name">{{airport.name}}</a> ({{airport.iata}})</li>
     {% endfor %}
 </ul>
