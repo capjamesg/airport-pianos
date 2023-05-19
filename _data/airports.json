@@ -11,7 +11,9 @@
         "hasPiano": "true",
         "pianoShortLocation": "Gate C17",
         "lastConfirmed": "April 2023",
-        "description": "A grand piano is available for public use at Gate C17."
+        "description": "A grand piano is available for public use at Gate C17.",
+        "rating": "5",
+        "reviews": "1"
     },
     {
         "iata": "EDI",
@@ -25,7 +27,9 @@
         "hasPiano": "true",
         "pianoShortLocation": "Departures",
         "lastConfirmed": "April 2023",
-        "description": "A grand piano is available for public use in the Departures area."
+        "description": "A grand piano is available for public use in the Departures area.",
+        "rating": "4",
+        "reviews": "1"
     },
     {
         "iata": "FCO",

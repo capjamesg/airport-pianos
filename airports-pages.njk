@@ -65,6 +65,22 @@ noHero: true
             }
         </script>
 
+        {% if airport.rating %}
+            <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org/",
+                    "@type": "Product",
+                    "name": "{{ airport.name }} Piano",
+                    "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": "{{ airport.rating }}",
+                        "bestRating": "5",
+                        "ratingCount": "{{ airport.reviews }}"
+                    }
+                }
+            </script>
+        {% endif %}
+
         <script type="application/ld+json">
             {
             "@context": "https://schema.org",
