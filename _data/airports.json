@@ -26,5 +26,47 @@
         "pianoShortLocation": "Departures",
         "lastConfirmed": "April 2023",
         "description": "A grand piano is available for public use in the Departures area."
+    },
+    {
+        "iata": "FCO",
+        "name": "Leonardo da Vinci-Fiumicino Airport",
+        "city": "Rome",
+        "state": "Lazio",
+        "country": "Italy",
+        "lat": "41.799999",
+        "lon": "12.246364",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Unknown",
+        "lastConfirmed": "2022",
+        "description": "A piano is available for public use in the airport."
+    },
+    {
+        "iata": "CIA",
+        "name": "Ciampino-G. B. Pastine International Airport",
+        "city": "Rome",
+        "state": "Lazio",
+        "country": "Italy",
+        "lat": "41.7991",
+        "lon": "12.5929",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Main Gates",
+        "lastConfirmed": "July 2022",
+        "description": "A piano is available for public use after security and before passport check in the main gates."
+    },
+    {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "state": "",
+        "country": "Netherlands",
+        "lat": "52.308613",
+        "lon": "4.763889",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Departures",
+        "lastConfirmed": "2022",
+        "description": "A piano is available for public use in the airport."
     }
 ]
