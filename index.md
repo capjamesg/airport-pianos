@@ -69,3 +69,12 @@ This guide is maintained by [capjamesg](https://jamesg.blog). We welcome contrib
 ## Related Reading
 
 - [Brainstorming an organization to place pianos in airports](https://jamesg.blog/2023/04/29/airport-piano-organization/)
+
+<script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "url": "https://airportpianos.org",
+    "logo": "https://airportpianos.org/assets/img/piano.png"
+    }
+</script>
