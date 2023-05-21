@@ -86,5 +86,19 @@
         "pianoShortLocation": "McNamara Terminal",
         "lastConfirmed": "2022",
         "description": "A piano is available for public use in the McNamara Terminal at Gate A73."
+    },
+    {
+        "iata": "DUB",
+        "name": "Dublin Airport",
+        "city": "Dublin",
+        "state": "",
+        "country": "Ireland",
+        "lat": "53.421333",
+        "lon": "-6.270075",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Terminal 1",
+        "lastConfirmed": "",
+        "description": "A piano is available for public use in the Terminal 1 arrivals hall."
     }
 ]
