@@ -20,7 +20,7 @@ noHero: true
 <main>
     <p class="breadcrumbs"><a href="/">Airport Pianos</a> &gt; <a href="/pianos">Find a Piano</a> &gt; {{ airport.name }}</p>
 
-    <article class="h-entry h-geo">
+    <article class="h-entry h-geo h-review-aggregate">
         <aside>
             <div id="map"></div>
         </aside>
@@ -29,6 +29,10 @@ noHero: true
 
         <p>Latitude: <span class="p-latitude">{{ airport.lat }}</span></p>
         <p>Longitude: <span class="p-longitude">{{ airport.lon }}</span></p>
+        
+        {% if airport.rating %}
+            <p>Reviews: <span class="p-count">{{ airport.reviews }}</span>: <span class="p-rating">{{ airport.rating }}</span>/<span class="p-best">5</span></p>
+        {% endif %}
 
         <h2 class="p-name">Pianos at {{ airport.name }}</h2>
 

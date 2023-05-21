@@ -41,9 +41,26 @@ permalink: /pianos/
 
 <ul class="h-feed">
     {% for airport in airports %}
-    <li class="h-entry"><a href="/pianos/{{airport.iata}}" class="u-url p-name">{{airport.name}}</a> ({{airport.iata}})</li>
+    <li class="h-entry">
+        <a href="/pianos/{{airport.iata}}" class="u-url p-name">{{airport.name}}</a> ({{airport.iata}})
+        <p>Location: {{ airport.pianoShortLocation }}. {% if airport.lastConfirmed %}Last confirmed {{ airport.lastConfirmed }}.{% endif %}</p>
+    </li>
     {% endfor %}
 </ul>
+
+<style>
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        background: #eee;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        padding-bottom: 5px;
+    }
+</style>
 
 <h2>About the List</h2>
 
@@ -53,6 +70,6 @@ permalink: /pianos/
 
 <p>Don't see your piano here? Submit a request for a piano; we'll tally these up to guage interest.</p>
 
-<p>The data for this page is available as a <a href="/airports.json">JSON file</a>.</p>
+<p>The data for this page is available as a <a href="http://localhost:8080/_data/airports.json">JSON file</a>.</p>
 
 <p>For more airport pianos, check out <a href="https://pianos.pub">pianos.pub</a> and search for your local airport.</p>
