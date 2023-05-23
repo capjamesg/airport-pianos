@@ -100,5 +100,19 @@
         "pianoShortLocation": "Terminal 1",
         "lastConfirmed": "",
         "description": "A piano is available for public use in the Terminal 1 arrivals hall."
+    },
+    {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States",
+        "lat": "33.942495",
+        "lon": "-118.408068",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Terminal 7 and Tom Bradley International Terminal",
+        "lastConfirmed": "May 2023",
+        "description": "There is a piano available in Terminal 7 and at the seating area by Burger King at the West Gates in Tom Bradley International Terminal."
     }
 ]
