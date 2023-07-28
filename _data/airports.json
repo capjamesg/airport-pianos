@@ -24,10 +24,10 @@
         "lat": "55.950136",
         "lon": "-3.372947",
         "zoom": "10",
-        "hasPiano": "true",
+        "hasPiano": "false",
         "pianoShortLocation": "Departures",
-        "lastConfirmed": "April 2023",
-        "description": "A grand piano is available for public use in the Departures area.",
+        "lastConfirmed": "July 2023",
+        "description": "A grand piano was previously available for public use in the Departures area. In July 2023, the piano was not available.",
         "rating": "4",
         "reviews": "1"
     },
