@@ -114,5 +114,19 @@
         "pianoShortLocation": "Terminal 7 and Tom Bradley International Terminal",
         "lastConfirmed": "May 2023",
         "description": "There is a piano available in Terminal 7 and at the seating area by Burger King at the West Gates in Tom Bradley International Terminal."
+    },
+    {
+        "iata": "BRU",
+        "name": "Brussels Airport",
+        "city": "Brussels",
+        "state": "Brussels-Capital Region",
+        "country": "Belgium",
+        "lat": "50.90032583457687",
+        "lon": "4.485984812280702",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Terminal B, before gate B01",
+        "lastConfirmed": "July 2023",
+        "description": "There is a piano available before gate B01 in Terminal B"
     }
 ]
