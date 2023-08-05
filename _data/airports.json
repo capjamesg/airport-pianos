@@ -16,6 +16,22 @@
         "reviews": "1"
     },
     {
+        "iata": "EWR",
+        "name": "Newark Liberty International Airport",
+        "city": "Newark",
+        "state": "New Jersey",
+        "country": "United States",
+        "lat": "40.689543574161426",
+        "lon": "-74.17441948791812",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Terminal C",
+        "lastConfirmed": "April 2023",
+        "description": "A grand piano is available for use at Terminal C.",
+        "rating": "5",
+        "reviews": "1"
+    },
+    {
         "iata": "EDI",
         "name": "Edinburgh Airport",
         "city": "Edinburgh",
