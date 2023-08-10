@@ -1,5 +1,37 @@
 [
     {
+        "iata": "SLC",
+        "name": "Salt Lake City International Airport",
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "country": "United States",
+        "lat": "40.788389",
+        "lon": "-111.977772",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "After passing through security",
+        "lastConfirmed": "August 2023",
+        "description": "A piano is available for public use after passing through security.",
+        "rating": "5",
+        "reviews": "1"
+    },
+    {
+        "iata": "MEX",
+        "name": "Mexico City International Airport",
+        "city": "Mexico City",
+        "state": "Mexico City",
+        "country": "Mexico",
+        "lat": "19.436076",
+        "lon": "-99.071908",
+        "zoom": "10",
+        "hasPiano": "true",
+        "pianoShortLocation": "Terminal 2",
+        "lastConfirmed": "August 2023",
+        "description": "A piano is available for public use in Terminal 2 at around Gate 70.",
+        "rating": "5",
+        "reviews": "1"
+    },
+    {
         "iata": "ORD",
         "name": "Chicago O'Hare International Airport",
         "city": "Chicago",

@@ -1,12 +1,16 @@
----
-layout: maps.njk
-pagination:
-    data: airports
-    size: 1
-    alias: airport
-permalink: "pianos/{{ airport.iata | lower }}/"
-url: "{{site.url}}/pianos/{{ airport.iata | lower }}/"
-noHero: true
+---js
+{
+    "layout": "maps.njk",
+    "pagination": {
+        "data": "airports",
+        "size": 1,
+        "alias": "airport"
+    },
+    "permalink": "pianos/{{ airport.iata | lower }}/",
+    "url": "{{site.url}}/pianos/{{ airport.iata | lower }}/",
+    "noHero": true,
+    "title": "{{ airport.name }}",
+}
 ---
 
 <div id="hero">
