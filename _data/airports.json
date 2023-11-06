@@ -1,4 +1,18 @@
-[
+
+    {
+        "iata": "LGA",
+        "name": "LaGuardia Airport",
+        "city": "New York",
+        "state": "New York",
+        "country": "United States",
+        "lat": "40.7769",
+        "long": "73.8740",
+        "zoom": "12",
+        "hasPiano": "false",
+        "pianoShortLocation": "N/A",
+        "lastConfirmed": "N/A",
+        "description": "LaGuardia Airport does not currently have a piano for public use.",
+    },
     {
         "iata": "BTV",
         "name": "Burlington International Airport",
