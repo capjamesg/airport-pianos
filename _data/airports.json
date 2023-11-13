@@ -1,5 +1,19 @@
 
     {
+        "iata": "MUC",
+        "name": "Munich International Airport",
+        "city": "Munich",
+        "state": "Munich",
+        "country": "Germany",
+        "lat": "48.3536",
+        "long": "11.7832",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "N/A",
+        "lastConfirmed": "N/A",
+        "description": "Munich airport has a piano for public use. No information about the exact location was submitted to airportpianos.org. Have more information? Let us know in the Add a Piano form."
+    },
+    {
         "iata": "LAX",
         "name": "Los Angeles International Airport",
         "city": "Los Angeles",
@@ -8,7 +22,7 @@
         "lat": "33.9438",
         "long": "118.4091",
         "zoom": "12",
-        "hasPiano": "false",
+        "hasPiano": "true",
         "pianoShortLocation": "N/A",
         "lastConfirmed": "N/A",
         "description": "LAX has a piano for public use in T7."
