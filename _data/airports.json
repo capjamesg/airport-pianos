@@ -1,5 +1,19 @@
 
     {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "state": "California",
+        "country": "United States",
+        "lat": "33.9438",
+        "long": "118.4091",
+        "zoom": "12",
+        "hasPiano": "false",
+        "pianoShortLocation": "N/A",
+        "lastConfirmed": "N/A",
+        "description": "LAX has a piano for public use in T7."
+    },
+    {
         "iata": "LGA",
         "name": "LaGuardia Airport",
         "city": "New York",
