@@ -14,6 +14,20 @@
         "description": "A piano is available for use in Terminal 4."
     },
     {
+        "iata": "MRU",
+        "name": "Sir Seewoosagur Ramgoolam International Airport",
+        "city": "Plaine Magnien",
+        "state": "",
+        "country": "Mauritius",
+        "lat": "20.4335",
+        "long": "57.6787",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "At the terminal connecting to La Reunión.",
+        "lastConfirmed": "February 2024",
+        "description": "At the terminal connecting to La Reunión."
+    },
+    {
         "iata": "HSV",
         "name": "Huntsville International Airport",
         "city": "Huntsville",
