@@ -14,6 +14,20 @@
         "description": "A piano is available for use in Terminal 4."
     },
     {
+        "iata": "HSV",
+        "name": "Huntsville International Airport",
+        "city": "Huntsville",
+        "state": "Alabama",
+        "country": "United States",
+        "lat": "34.6450",
+        "long": "86.7766",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "After security",
+        "lastConfirmed": "N/A",
+        "description": "A piano is available for use after security."
+    },
+    {
         "iata": "MUC",
         "name": "Munich International Airport",
         "city": "Munich",
