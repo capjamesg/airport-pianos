@@ -1,5 +1,19 @@
 
     {
+        "iata": "LIS",
+        "name": "Humberto Delgado Airport",
+        "city": "Lisbon",
+        "state": "Lisbon",
+        "country": "Portugal",
+        "lat": "38.7800",
+        "long": "9.1350",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "No piano".
+        "lastConfirmed": "N/A",
+        "description": "Lisbon airport does not have a piano."
+    },
+    {
         "iata": "JFK",
         "name": "John F. Kennedy International Airport",
         "city": "New York",
