@@ -1,16 +1,29 @@
     {
+        "iata": "RIC",
+        "name": "Richmond International Airport",
+        "city": "Richmond",
+        "state": "Virginia",
+        "country": "United States",
+        "lat": "37.505",
+        "long": "-77.3241666667",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Unknown",
+        "lastConfirmed": "2024",
+        "description": "Richmond International Airport has a piano, but the location was not submitted to this website. If you see the piano, consider submitting the location to this website so others can find it. Happy playing!"
+    },{
         "iata": "SJC",
         "name": "San José Mineta International Airport",
         "city": "San José",
         "state": "California",
         "country": "United States",
         "lat": "37.3640",
-        "long": "121.9289",
+        "long": "-121.9289",
         "zoom": "12",
         "hasPiano": "true",
         "pianoShortLocation": "Terminal B",
         "lastConfirmed": "2024",
-        "description": "Adelaide Airport has a piano in Terminal B, near baggage claim."
+        "description": "San José airport has a piano in Terminal B, near baggage claim."
     },
     {
         "iata": "ADL",
