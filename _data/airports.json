@@ -1,4 +1,17 @@
     {
+        "iata": "OPO",
+        "name": "Francisco Sá Carneiro Airport",
+        "city": "Porto",
+        "state": "Porto",
+        "country": "Portugal",
+        "lat": "41.2414",
+        "long": "-8.6787",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Unknown",
+        "lastConfirmed": "2024",
+        "description": "Porto Airport has a piano, but the location was not submitted to this website. If you see the piano, consider submitting the location to this website so others can find it. Happy playing!"
+    },    {
         "iata": "RIC",
         "name": "Richmond International Airport",
         "city": "Richmond",
