@@ -28,11 +28,6 @@
         <aside>
             <div id="map"></div>
         </aside>
-
-        <p>Location: {{ airport.city }}, {{ airport.country }}</p>
-
-        <p>Latitude: <span class="p-latitude">{{ airport.lat }}</span></p>
-        <p>Longitude: <span class="p-longitude">{{ airport.lon }}</span></p>
         
         {% if airport.rating %}
             <p>Reviews: <span class="p-count">{{ airport.reviews }}</span>: <span class="p-rating">{{ airport.rating }}</span>/<span class="p-best">5</span></p>
@@ -42,8 +37,14 @@
 
         <p>{{ airport.description }}</p>
 
+        <h2>About this Location</h2>
+        <p>Location: {{ airport.city }}, {{ airport.country }}</p>
+
+        <p>Latitude: <span class="p-latitude">{{ airport.lat }}</span></p>
+        <p>Longitude: <span class="p-longitude">{{ airport.long }}</span></p>
+
         <script>
-            var map = L.map('map').setView([{{ airport.lat }}, {{ airport.lon }}], 13);
+            var map = L.map('map').setView([{{ airport.lat }}, {{ airport.long }}], 13);
             const tiles = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
 
             L.marker([{{ airport.lat }}, {{ airport.long }}]).addTo(map)

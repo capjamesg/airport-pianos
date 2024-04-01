@@ -9,6 +9,8 @@ _airportpianos.org_ is devoted to helping more airports find pianos. Started in 
 
 This project is run by [capjamesg](https://jamesg.blog).
 
+This site does not show any ads or sponsored content.
+
 ## Contact
 
 I'd love your help to expand this project. Here are some ways you can contribute:

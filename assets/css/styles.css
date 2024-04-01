@@ -39,7 +39,7 @@ a:hover {
     text-decoration: underline;
 }
 #hero {
-    background-image: url('https://images.pexels.com/photos/1246437/pexels-photo-1246437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-image: url('/assets/background.jpeg');
     background-size: cover;
     background-position: center;
     height: 200px;
