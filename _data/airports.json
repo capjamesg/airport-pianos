@@ -1,4 +1,17 @@
 [    {
+        "iata": "CMH",
+        "name": "John Glenn Columbus International Airport",
+        "city": "Columbus",
+        "state": "Ohio",
+        "country": "United States",
+        "lat": "39.9999",
+        "long": "-82.88725",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Center of ticket lobby",
+        "lastConfirmed": "2024",
+        "description": "CMH airport has a piano in the center of ticket lobby."
+    },  {
         "iata": "YUL",
         "name": "Montréal-Trudeau International Airport",
         "city": "Dorval",
