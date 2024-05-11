@@ -155,9 +155,9 @@
         "long": "73.7797",
         "zoom": "12",
         "hasPiano": "true",
-        "pianoShortLocation": "Terminal 4",
+        "pianoShortLocation": "Terminal 4 and Terminal 7",
         "lastConfirmed": "N/A",
-        "description": "A piano is available for use in Terminal 4."
+        "description": "A piano is available for use in Terminal 4 and Terminal 7."
     },
     {
         "iata": "MRU",
