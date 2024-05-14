@@ -183,9 +183,9 @@
         "long": "86.7766",
         "zoom": "12",
         "hasPiano": "true",
-        "pianoShortLocation": "After security",
-        "lastConfirmed": "N/A",
-        "description": "A piano is available for use after security."
+        "pianoShortLocation": "Before security",
+        "lastConfirmed": "May 2024",
+        "description": "A piano is available for use just before security, near a seating area."
     },
     {
         "iata": "MUC",
