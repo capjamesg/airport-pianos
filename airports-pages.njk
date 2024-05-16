@@ -9,7 +9,7 @@
     "permalink": "pianos/{{ airport.iata | lower }}/",
     "url": "{{site.url}}/pianos/{{ airport.iata | lower }}/",
     "noHero": true,
-    "title": "{{ airport.name }}",
+    "title": "{{ airport.name | safe }}",
 }
 ---
 
