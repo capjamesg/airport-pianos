@@ -9,8 +9,10 @@
     "permalink": "pianos/{{ airport.iata | lower }}/",
     "url": "{{site.url}}/pianos/{{ airport.iata | lower }}/",
     "noHero": true,
-    "eleventyComputed": {
-    ​  "title": "{{ airport.name | safe }}",​
+    "renderData": {
+    ​    "eleventyComputed": {​
+    ​        "title": "{{ airport.name | safe }}",​
+    ​    }​
     }
 }
 ---
