@@ -5,19 +5,16 @@ title: About Airport Pianos
 
 # {{title}} 🎹
 
-_airportpianos.org_ is devoted to helping more airports find pianos. Started in 2023, this site serves two purposes. First, to document airport pianos around the world. Second, to provide resources for people who want to donate pianos to airports.
+_airportpianos.org_ curates the location of pianos around the world. This site is ad-free and tracker-free.
 
 This project is run by [capjamesg](https://jamesg.blog).
-
-This site does not show any ads or sponsored content.
 
 ## Contact
 
 I'd love your help to expand this project. Here are some ways you can contribute:
 
 - Tell me about an airport piano that isn't listed on this site;
-- Tell me about an airport piano that is listed on this site, but has been removed;
-- Share your advice on donating a piano to an airport;
+- Tell me about an airport piano that is listed on this site, but has been removed, or;
 - Donate a piano to your local airport!
 
-You can reach me at [james [at] airportpianos [dot] org](mailto:james@airportpianos.org)
+You can reach me at [readers [at] jamesg [dot] blog](mailto:readers@jamesg.blog).

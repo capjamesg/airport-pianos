@@ -8,20 +8,11 @@
     },
     "permalink": "pianos/{{ airport.iata | lower }}/",
     "url": "{{site.url}}/pianos/{{ airport.iata | lower }}/",
-    "noHero": true,
     "eleventyComputed": {
-    ​    "title": "{{ airport.name | safe }}",​
+        "title": "{{ airport.name | safe }}",
     }
 }
 ---
-
-<div id="hero">
-    <div class="hero-inner">
-        <div class="container">
-            <h1>{{ airport.name | safe }}</h1>
-        </div>
-    </div>
-</div>
 
 <main>
     <p class="breadcrumbs"><a href="/">Airport Pianos</a> &gt; <a href="/pianos">Find a Piano</a> &gt; {{ airport.name }}</p>
