@@ -2,6 +2,7 @@ import os
 
 BASE_URLS = {
     "local": os.getcwd(),
+    "production": "https://airportpianos.org"
 }
 
 SITE_ENV = os.environ.get("SITE_ENV", "local")
