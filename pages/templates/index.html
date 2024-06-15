@@ -41,7 +41,7 @@ title: Find an Airport Piano
 <ul class="h-feed">
     {% for airport in site.pianos %}
     <li class="h-entry">
-        <a href="/pianos/{{airport.iata}}" class="u-url p-name">{{airport.title}}</a> ({{airport.slug}})
+        <a href="/pianos/{{airport.slug}}/" class="u-url p-name">{{airport.title}}</a> ({{airport.IATA}})
         <p>Location: {{ airport.pianoShortLocation }}. {% if airport.lastConfirmed %}Last confirmed {{ airport.lastConfirmed }}.{% endif %}</p>
     </li>
     {% endfor %}
