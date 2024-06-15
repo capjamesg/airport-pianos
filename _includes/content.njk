@@ -1,0 +1,27 @@
+{% block head %}
+    <nav>
+        <div class="nav-inner">
+            <a href="/">Airport Pianos</a>
+            <div class="nav-right">
+                <a href="/about">About</a>
+                <a href="/add">Add a Piano</a>
+                <a href="/pianos" class="find-a-piano">Find a Piano</a>
+            </div>
+        </div>
+    </nav>
+    {% if noHero != true %}
+        <div id="hero">
+            <div class="hero-inner">
+                <div class="container">
+                    <h1>{{ title | safe }}</h1>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    <main>
+        {{ content | safe }}
+    </main>
+    <footer>
+        <p>Have information about a piano?</p><p><a href="/add">Add a piano, or submit an update, to this website.</a></p>
+    </footer>
+{% endblock %}
