@@ -1,0 +1,74 @@
+---
+layout: main
+title: Find an Airport Piano
+---
+
+<h1>Find an Airport Piano 🎹</h1>
+
+<search>
+    <input type="search" placeholder="Search by airport name or IATA code" id="search" />
+</search>
+
+<p>Showing <span id="results-count">{{site.pianos | length }}</span> pianos.</p>
+
+<script>
+    var search = document.getElementById('search');
+    var resultsCount = document.getElementById('results-count');
+
+    search.addEventListener('keyup', function(e) {
+        var query = e.target.value.toLowerCase();
+
+        var pianos = document.querySelectorAll('.h-entry');
+
+        var count = 0;
+
+        pianos.forEach(function(piano) {
+            var name = piano.querySelector('.p-name').textContent.toLowerCase();
+            var iata = piano.querySelector('.u-url').textContent.toLowerCase();
+
+            if (name.indexOf(query) > -1 || iata.indexOf(query) > -1) {
+                piano.style.display = 'block';
+                count++;
+            } else {
+                piano.style.display = 'none';
+            }
+        });
+
+        resultsCount.textContent = count;
+    });
+</script>
+
+<ul class="h-feed">
+    {% for airport in site.pianos %}
+    <li class="h-entry">
+        <a href="/pianos/{{airport.iata}}" class="u-url p-name">{{airport.title}}</a> ({{airport.slug}})
+        <p>Location: {{ airport.pianoShortLocation }}. {% if airport.lastConfirmed %}Last confirmed {{ airport.lastConfirmed }}.{% endif %}</p>
+    </li>
+    {% endfor %}
+</ul>
+
+<style>
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        background: #eee;
+        margin-bottom: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        padding-bottom: 5px;
+    }
+</style>
+
+<h2>About the List</h2>
+
+<p>This page lists pianos that have been confirmed to be in airports around the world.</p>
+
+<p>The <i>confirmed</i> date refers to the last time the piano was seen by a community member.</p>
+
+<p>Don't see your piano here? Submit a request for a piano; we'll tally these up to guage interest.</p>
+
+<p>The data for this page is available as a <a href="https://airportpianos.org/_data/airports.json">JSON file</a>.</p>
+
+<p>For more airport pianos, check out <a href="https://pianos.pub">pianos.pub</a> and search for your local airport.</p>

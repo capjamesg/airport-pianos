@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>{{ page.title }}</title>
+
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" href="{{ site.root_url }}/assets/css/styles.css">
+
+        <link rel="manifest" href="{{ site.root_url }}/assets/manifest.json">
+
+        <meta name="twitter:card" content="summary_large_image">
+
+        <meta name="description" content="Resources to find a piano and to help donate pianos to airports.">
+
+        <meta name="og:title" content="{{ title }}">
+        <meta name="og:description" content="Resources to help donate pianos to airports.">
+        <meta name="og:image" content="/assets/background.jpeg">
+
+        <link rel="me" href="mailto:jamesg@jamesg.blog">
+
+        <link rel="webmention" href="https://webmention.io/airportpianos.org/webmention" />
+    </head>
+    <body>
+        <nav>
+            <div class="nav-inner">
+                <a href="/">Airport Pianos</a>
+                <div class="nav-right">
+                    <a href="/about">About</a>
+                    <a href="/add">Add a Piano</a>
+                    <a href="/" class="find-a-piano">Find a Piano</a>
+                </div>
+            </div>
+        </nav>
+        {% if noHero != true %}
+            <div id="hero">
+                <div class="hero-inner">
+                    <div class="container">
+                        <h1>{{ page.title }}</h1>
+                    </div>
+                </div>
+            </div>
+        {% endif %}
+        <main>
+            {{ content | safe }}
+        </main>
+        <footer>
+            <p>Have information about a piano?</p><p><a href="/add">Add a piano, or submit an update, to this website.</a></p>
+        </footer>
+    </body>
+</html>
