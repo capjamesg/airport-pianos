@@ -29,8 +29,13 @@ footer p {
     margin: 0;
 }
 footer {
+<<<<<<< HEAD
+    color: white;
+    margin-bottom: 25px;
+=======
     margin-top: 50px;
     color: white;
+>>>>>>> origin/main
 }
 code {
     background-color: #eee;
@@ -44,7 +49,11 @@ a:hover {
     text-decoration: underline;
 }
 #hero {
+<<<<<<< HEAD
+    background-image: url('https://airportpianos.org/assets/background.jpeg');
+=======
     background-image: url('/assets/background.jpeg');
+>>>>>>> origin/main
     background-size: cover;
     background-position: center;
     height: 200px;
