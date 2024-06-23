@@ -1,9 +1,10 @@
 ---
 layout: main
 title: About Airport Pianos
+permalink: /about/
 ---
 
-# {{title}} 🎹
+# About 🎹
 
 _airportpianos.org_ curates the location of pianos around the world. This site is ad-free and tracker-free.
 
