@@ -12,7 +12,7 @@
         "lastConfirmed": "2024",
         "description": "San Diego International Airport has a piano in Terminal 2.",
         "slug": "san",
-        "layout": "airports"
+        "layout": "airport"
     }, {
         "iata": "TLL",
         "title": "Tallinn Airport",
@@ -27,7 +27,7 @@
         "lastConfirmed": "2024",
         "description": "Tallinn Airport has a piano in Terminal 1.",
         "slug": "tll",
-        "layout": "airports"
+        "layout": "airport"
     },  {
         "iata": "CMH",
         "title": "John Glenn Columbus International Airport",
@@ -42,7 +42,7 @@
         "lastConfirmed": "2024",
         "description": "CMH airport has a piano in the center of ticket lobby.",
         "slug": "cmh",
-        "layout": "airports"
+        "layout": "airport"
     },  {
         "iata": "YUL",
         "title": "Montréal-Trudeau International Airport",
@@ -57,7 +57,7 @@
         "lastConfirmed": "2024",
         "description": "YUL airport has a piano between Gate 53 and Gate 64 (international area).",
         "slug": "yul",
-        "layout": "airports"
+        "layout": "airport"
     },   {
         "iata": "MVD",
         "title": "Aeropuerto Internacional de Carrasco",
@@ -72,7 +72,7 @@
         "lastConfirmed": "2024",
         "description": "MVD airport has a piano at the departure gate.",
         "slug": "mvd",
-        "layout": "airports"
+        "layout": "airport"
     },   {
         "iata": "MSP",
         "title": "Minneapolis–Saint Paul International Airport",
@@ -87,7 +87,7 @@
         "lastConfirmed": "2024",
         "description": "MSP airport has a piano in Terminal 1 by the main 'hall' area, and in Terminal 2 near gate H11.",
         "slug": "msp",
-        "layout": "airports"
+        "layout": "airport"
     },   {
         "iata": "BWI",
         "title": "Baltimore/Washington International Thurgood Marshall Airport",
@@ -102,7 +102,7 @@
         "lastConfirmed": "2024",
         "description": "Baltimore/Washington International Thurgood Marshall Airport may have a piano, but the location was not submitted to this website. If you see the piano, consider submitting the location to this website so others can find it.",
         "slug": "bwi",
-        "layout": "airports"
+        "layout": "airport"
     },    {
         "iata": "OPO",
         "title": "Francisco Sá Carneiro Airport",
@@ -117,7 +117,7 @@
         "lastConfirmed": "2024",
         "description": "Porto Airport has a piano near passport control for Gates 1-11. It was also noted the piano may not be playable at the moment in April 2024, or be available for play by professional musicians; we encourage you to check.",
         "slug": "opo",
-        "layout": "airports"
+        "layout": "airport"
     },    {
         "iata": "RIC",
         "title": "Richmond International Airport",
@@ -132,7 +132,7 @@
         "lastConfirmed": "2024",
         "description": "Richmond International Airport has a piano, but the location was not submitted to this website. If you see the piano, consider submitting the location to this website so others can find it. Happy playing!",
         "slug": "ric",
-        "layout": "airports"
+        "layout": "airport"
     },{
         "iata": "SJC",
         "title": "San José Mineta International Airport",
@@ -147,7 +147,7 @@
         "lastConfirmed": "2024",
         "description": "San José airport has a piano in Terminal B, near baggage claim.",
         "slug": "sjc",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "ADL",
@@ -163,7 +163,7 @@
         "lastConfirmed": "2024",
         "description": "Adelaide Airport has a piano in Terminal 1, after security.",
         "slug": "adl",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "OSL",
@@ -179,7 +179,7 @@
         "lastConfirmed": "2024",
         "description": "Oslo airport has a piano, but the exact location was not reported in the submission to this website.",
         "slug": "osl",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "LIS",
@@ -195,7 +195,7 @@
         "lastConfirmed": "March 2024",
         "description": "Lisbon airport does not have a piano.",
         "slug": "lis",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "JFK",
@@ -211,7 +211,7 @@
         "lastConfirmed": "N/A",
         "description": "A piano is available for use in Terminal 4 and Terminal 7.",
         "slug": "jfk",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "MRU",
@@ -227,7 +227,7 @@
         "lastConfirmed": "February 2024",
         "description": "At the terminal connecting to La Reunión.",
         "slug": "mru",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "HSV",
@@ -243,7 +243,7 @@
         "lastConfirmed": "May 2024",
         "description": "A piano is available for use just before security, near a seating area.",
         "slug": "hsv",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "MUC",
@@ -259,7 +259,7 @@
         "lastConfirmed": "N/A",
         "description": "Munich airport has a piano for public use. No information about the exact location was submitted to airportpianos.org. Have more information? Let us know in the Add a Piano form.",
         "slug": "muc",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "LGA",
@@ -275,7 +275,7 @@
         "lastConfirmed": "N/A",
         "description": "LaGuardia Airport does not have a piano in Terminal 2. No information has been submitted for other terminals.",
         "slug": "lga",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "BTV",
@@ -291,7 +291,7 @@
         "lastConfirmed": "August 2023",
         "description": "Side room between the two terminals near a small museum display case. BTV is a small airport and not hard to find.",
         "slug": "btv",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "WAW",
@@ -307,7 +307,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano may be available for public use in Departures 2 (submitter was not sure about the exact location).",
         "slug": "waw",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "YYC",
@@ -323,7 +323,7 @@
         "lastConfirmed": "August 2023",
         "description": "Gate D, in the intersection between the D80-D97 hallway and the D72+ hallway.",
         "slug": "yyc",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "YYZ",
@@ -339,7 +339,7 @@
         "lastConfirmed": "August 2023",
         "description": "An upright piano is available for public use in Terminal 1 at Gate D20.",
         "slug": "yyz",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "NCE",
@@ -355,7 +355,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available for public use in Terminal 1.",
         "slug": "nce",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "CDG",
@@ -371,7 +371,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available for public use in Terminal 3 at gate area 2 and in Terminal.",
         "slug": "cdg",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "CRL",
@@ -387,7 +387,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available in Terminal 1 after security check.",
         "slug": "crl",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "LMML",
@@ -403,7 +403,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available for public use in the Departures area, between gates 1-4 near the Airport Information desk.",
         "slug": "lmml",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "SYR",
@@ -419,7 +419,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available for public use in the main departures hall before the security escalators.",
         "slug": "syr",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "CLT",
@@ -435,7 +435,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available for use in the main concourse.",
         "slug": "clt",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "PMO",
@@ -451,7 +451,7 @@
         "lastConfirmed": "August 2023",
         "description": "A piano is available for public use in the Departures hall.",
         "slug": "pmo",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "ICN",
@@ -469,7 +469,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "icn",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "SLC",
@@ -487,7 +487,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "slc",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "MEX",
@@ -505,7 +505,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "mex",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "ORD",
@@ -523,7 +523,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "ord",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "EWR",
@@ -541,7 +541,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "ewr",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "EDI",
@@ -559,7 +559,7 @@
         "rating": "4",
         "reviews": "1",
         "slug": "edi",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "FCO",
@@ -577,7 +577,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "fco",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "CIA",
@@ -595,7 +595,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "cia",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "AMS",
@@ -613,7 +613,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "ams",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "DTW",
@@ -631,7 +631,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "dtw",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "DUB",
@@ -649,7 +649,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "dub",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "LAX",
@@ -667,7 +667,7 @@
         "rating": "5",
         "reviews": "1",
         "slug": "lax",
-        "layout": "airports"
+        "layout": "airport"
     },
     {
         "iata": "BRU",
@@ -685,6 +685,6 @@
         "rating": "5",
         "reviews": "1",
         "slug": "bru",
-        "layout": "airports"
+        "layout": "airport"
     }
 ]
