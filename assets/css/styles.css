@@ -5,9 +5,24 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 p, li {
     line-height: 1.5;
+}
+.nav-inner {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    padding: 0;
+    margin: 0;
 }
 nav {
     background-color: #734f96;
@@ -19,7 +34,7 @@ nav a {
     text-decoration: none;
     margin-right: 20px;
 }
-nav > *, main, footer {
+main, footer {
     max-width: 50em;
     margin: 0 auto;
 }
@@ -107,7 +122,6 @@ aside {
 }
 input {
     width: 100%;
-    padding: 0.5rem;
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 0.25rem;
@@ -118,4 +132,9 @@ input {
 }
 h1, h2 {
     line-height: 1.2;
+}
+table a:focus {
+    color: white;
+    background-color: #734f96;
+    outline: black;
 }

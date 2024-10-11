@@ -2,22 +2,58 @@
 layout: main
 title: Find an Airport Piano
 ---
-
-<h1>Find an Airport Piano 🎹</h1>
-
+<style>
+    p, li, th, td {
+        font-size: 1em;
+    }
+    th {
+        text-align: left;
+    }
+    table {
+        border-collapse: separate; 
+        display: table;
+        width: 100%;
+        border-spacing: 0 1em;
+    }
+    tr {
+        padding: 1em 0;
+        display: table-row;
+    }
+    th:last-child,
+    td:last-child {
+        text-align: right;
+    }
+</style>
+<h1>Find an Airport Piano</h1>
+<p>Airport Pianos lists airport pianos around the world.</p>
+<p>Seen a piano? <a href="/add">Submit it to the website</a>.</p>
+<h2>Search</h2>
 <search>
     <input type="search" placeholder="Search by airport name or IATA code" id="search" />
 </search>
-
-<p>Showing <span id="results-count">{{site.pianos | length }}</span> pianos.</p>
+<table class="h-feed">
+    <thead>
+        <tr>
+            <th>Location</th>
+            <th>Code</th>
+            <th>Last Confirmed</th>
+        </tr>
+    </thead>
+    <tr id="no-results" style="display: none;"><td>No results found.</td><td></td><td></td></tr>
+    {% for airport in site.pianos | sort (attribute='iata') %}
+    <tr class="h-entry">
+        <td><a href="/pianos/{{airport.slug}}/" class="u-url p-name">{{airport.title}}</a></td>
+        <td>{{airport.iata}}</td>
+        <td>{% if airport.lastConfirmed %}{{ airport.lastConfirmed }}{% endif %}</td>
+    </tr>
+    {% endfor %}
+</table>
 
 <script>
     var search = document.getElementById('search');
-    var resultsCount = document.getElementById('results-count');
+    // var resultsCount = document.getElementById('results-count');
 
-    search.addEventListener('keyup', function(e) {
-        var query = e.target.value.toLowerCase();
-
+    function searchPage(query) {
         var pianos = document.querySelectorAll('.h-entry');
 
         var count = 0;
@@ -26,49 +62,45 @@ title: Find an Airport Piano
             var name = piano.querySelector('.p-name').textContent.toLowerCase();
             var iata = piano.querySelector('.u-url').textContent.toLowerCase();
 
-            if (name.indexOf(query) > -1 || iata.indexOf(query) > -1) {
-                piano.style.display = 'block';
+            // if the query is in the name or IATA code, show the piano
+            if (name.includes(query) || iata.includes(query)) {
+                piano.style.display = 'table-row';
                 count++;
             } else {
                 piano.style.display = 'none';
             }
         });
+        // resultsCount.textContent = count;
 
-        resultsCount.textContent = count;
+        if (count === 0) {
+            document.getElementById('no-results').style.display = 'table-row';
+        } else {
+            document.getElementById('no-results').style.display = 'none';
+        }
+    }
+    
+    // run a search if ?q is in the URL
+    var urlParams = new URLSearchParams(window.location.search);
+    var query = urlParams.get('q');
+
+    if (query) {
+        search.value = query;
+        console.log('searching for', query);
+        searchPage(query);
+    }
+    search.addEventListener('keyup', function(e) {
+        var query = e.target.value.toLowerCase();
+        searchPage(query);
     });
 </script>
 
-<ul class="h-feed">
-    {% for airport in site.pianos %}
-    <li class="h-entry">
-        <a href="/pianos/{{airport.slug}}/" class="u-url p-name">{{airport.title}}</a> ({{airport.IATA}})
-        <p>Location: {{ airport.pianoShortLocation }}. {% if airport.lastConfirmed %}Last confirmed {{ airport.lastConfirmed }}.{% endif %}</p>
-    </li>
-    {% endfor %}
-</ul>
-
 <style>
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-    li {
-        background: #eee;
-        margin-bottom: 20px;
-        padding: 10px;
-        border-radius: 5px;
-        padding-bottom: 5px;
+    table {
+        background-color: #f9f9f9;
     }
 </style>
 
-<h2>About the List</h2>
 
-<p>This page lists pianos that have been confirmed to be in airports around the world.</p>
-
-<p>The <i>confirmed</i> date refers to the last time the piano was seen by a community member.</p>
-
-<p>Don't see your piano here? Submit a request for a piano; we'll tally these up to guage interest.</p>
-
-<p>The data for this page is available as a <a href="https://airportpianos.org/_data/airports.json">JSON file</a>.</p>
+<p style="font-style: italic;">View as <a href="https://airportpianos.org/_data/airports.json">JSON</a>.</p>
 
 <p>For more airport pianos, check out <a href="https://pianos.pub">pianos.pub</a> and search for your local airport.</p>
