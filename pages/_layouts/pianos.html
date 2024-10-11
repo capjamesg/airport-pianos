@@ -1,15 +1,11 @@
 ---
 title: "{{ page.title }}"
-layout: maps
+layout: main
 ---
 
 <p class="breadcrumbs"><a href="/">Airport Pianos</a> &gt; <a href="/pianos">Find a Piano</a> &gt; {{ page.title }}</p>
 
 <article class="h-entry h-geo h-review-aggregate">
-    <aside>
-        <div id="map"></div>
-    </aside>
-    
     {% if page.rating %}
         <p>Reviews: <span class="p-count">{{ page.reviews }}</span>: <span class="p-rating">{{ page.rating }}</span>/<span class="p-best">5</span></p>
     {% endif %}
@@ -23,14 +19,6 @@ layout: maps
 
     <p>Latitude: <span class="p-latitude">{{ page.lat }}</span></p>
     <p>Longitude: <span class="p-longitude">{{ page.long }}</span></p>
-
-    <script>
-        var map = L.map('map').setView([{{ page.lat }}, {{ page.long }}], 13);
-        const tiles = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(map);
-
-        L.marker([{{ page.lat }}, {{ page.long }}]).addTo(map)
-            .bindPopup('{{ page.title }} ({{ page.iata }})');
-    </script>
 
     <script type="application/ld+json">
         {
