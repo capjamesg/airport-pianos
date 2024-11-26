@@ -24,7 +24,7 @@ jobs:
           # cache: 'pip' # caching pip dependencies
       - name: Install dependencies
         run: |
-          python3 -m pip install --upgrade pip git+https://github.com/capjamesg/aurora pyromark
+          python3 -m pip install --upgrade pip git+https://github.com/capjamesg/aurora
       - name: Build main site
         env:  
           SITE_ENV: ${{ secrets.SITE_ENV }}  
