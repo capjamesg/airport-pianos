@@ -10,7 +10,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Area C, Departures",
         "lastConfirmed": "2024",
-        "description": "Area C, Departures",
+        "description": "Capodichino Airport has an airport in Area C, Departures.",
         "slug": "nap"
     },{
         "iata": "SNA",
@@ -24,7 +24,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Between Terminals B and C",
         "lastConfirmed": "2024",
-        "description": "Between Terminals B and C.",
+        "description": "John Wayne Airport has a piano between Terminals B and C.",
         "slug": "sna"
     },{
         "iata": "ATL",
@@ -38,7 +38,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Concourse E",
         "lastConfirmed": "2024",
-        "description": "Concourse E, center, between the bar and Caribou Coffee.",
+        "description": "Hartsfield-Jackson Atlanta International Airport airport has a piano at Concourse E, center, between the bar and Caribou Coffee.",
         "slug": "atl"
     },{
         "iata": "PVD",
@@ -52,7 +52,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Baggage claim",
         "lastConfirmed": "2024",
-        "description": "Berlin Brandenberg Airport has a piano in the baggage claim area.",
+        "description": "Rhode Island TF Green International Airport has a piano in the baggage claim area.",
         "slug": "pvd"
     }, {
         "iata": "BER",
