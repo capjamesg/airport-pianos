@@ -1,4 +1,18 @@
 [    {
+        "iata": "PMI",
+        "title": "Palma de Mallorca",
+        "city": "Palma",
+        "state": "Palma",
+        "country": "Spain",
+        "lat": "40.8847",
+        "long": "14.2892",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Terminal D",
+        "lastConfirmed": "2024",
+        "description": "Palma de Mallorca has an airport in Terminal D.",
+        "slug": "pmi"
+    }{
         "iata": "NAP",
         "title": "Capodichino Airport",
         "city": "Naples",
