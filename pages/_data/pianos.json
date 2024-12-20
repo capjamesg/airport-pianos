@@ -1,4 +1,18 @@
 [    {
+        "iata": "BGO",
+        "title": "Bergen Airport",
+        "city": "Flesland",
+        "state": "Flesland",
+        "country": "Norway",
+        "lat": "60.2938",
+        "long": "5.2219",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Departures",
+        "lastConfirmed": "2024",
+        "description": "Bergen Airport has a piano in the departures area.",
+        "slug": "bgo"
+    }{
         "iata": "PMI",
         "title": "Palma de Mallorca",
         "city": "Palma",
