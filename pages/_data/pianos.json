@@ -1,4 +1,18 @@
 [    {
+        "iata": "BGY",
+        "title": "Orio al Serio International Airport",
+        "city": "Milan",
+        "state": "Milan",
+        "country": "Italy",
+        "lat": "45.6690",
+        "long": "9.7074",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Gate A7",
+        "lastConfirmed": "2025",
+        "description": "Orio al Serio International Airport has a piano at gate A7",
+        "slug": "bgy"
+    },{
         "iata": "BUD",
         "title": "Budapest Ferenc Liszt International Airport",
         "city": "Budapest",
@@ -135,8 +149,8 @@
         "zoom": "12",
         "hasPiano": "true",
         "pianoShortLocation": "Terminal 2",
-        "lastConfirmed": "2024",
-        "description": "San Diego International Airport has a piano in Terminal 2.",
+        "lastConfirmed": "2025",
+        "description": "San Diego International Airport has a piano in Terminal 2, near gate 36.",
         "slug": "san"
     }, {
         "iata": "TLL",
@@ -366,8 +380,8 @@
         "zoom": "12",
         "hasPiano": "true",
         "pianoShortLocation": "N/A",
-        "lastConfirmed": "N/A",
-        "description": "Munich airport has a piano in front of Käfer Bistro.",
+        "lastConfirmed": "2025",
+        "description": "Munich airport used to have a piano in front of Käfer Bistro. It no longer has a piano.",
         "slug": "muc"
     },
     {
