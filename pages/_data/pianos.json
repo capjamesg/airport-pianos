@@ -1,4 +1,18 @@
 [    {
+        "iata": "MIA",
+        "title": "Miami International Airport",
+        "city": "Miami",
+        "state": "Florida",
+        "country": "United States",
+        "lat": "25.7923",
+        "long": "-80.2823",
+        "zoom": "12",
+        "hasPiano": "true",
+        "pianoShortLocation": "Gate E",
+        "lastConfirmed": "2025",
+        "description": "Miami International Airport has a piano at Gate E",
+        "slug": "mia"
+    },{
         "iata": "BOS",
         "title": "Boston Logan International Airport",
         "city": "Boston",
@@ -10,7 +24,7 @@
         "hasPiano": "true",
         "pianoShortLocation": "Gate E8 after security, in front of Duty Free Beauty",
         "lastConfirmed": "2025",
-        "description": "Catania–Fontanarossa Airport has a piano at gate E8 after security, in front of Duty Free Beauty.",
+        "description": "Boston Logan International Airport has a piano at gate E8 after security, in front of Duty Free Beauty.",
         "slug": "bos"
     },{
         "iata": "CTA",
