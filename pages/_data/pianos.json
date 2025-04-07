@@ -106,9 +106,9 @@
         "long": "14.2892",
         "zoom": "12",
         "hasPiano": "true",
-        "pianoShortLocation": "Terminal D",
-        "lastConfirmed": "2024",
-        "description": "Palma de Mallorca has an airport in Terminal D.",
+        "pianoShortLocation": "Terminal D, Gate C, on the way to C60.",
+        "lastConfirmed": "2025",
+        "description": "Palma de Mallorca has an airport in Terminal D, Gate C, on the way to C60.",
         "slug": "pmi"
     },{
         "iata": "NAP",
