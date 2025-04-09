@@ -10,6 +10,7 @@ noindex: true
 <p>The form below generates a JSON record for use in adding data to the database.</p>
 
 <form>
+    <section id="notification"></section>
     <label for="title">Airport name:</label>
     <input type="text" id="title" name="title" required>
     <label for="iata">IATA Code:</label>
@@ -22,18 +23,37 @@ noindex: true
     <label for="country">Country:</label>
     <input type="text" id="country" name="country" required>
     <label for="lat">Latitude:</label>
-    <input type="number" id="lat" name="lat" required>
+    <input type="number" id="lat" name="lat" required step="any">
     <p style="margin-top: 0;"><a id="search-lat-long">search for lat long</a></p>
     <label for="long">Longitude:</label>
-    <input type="number" id="long" name="long" required>
+    <input type="number" id="long" name="long" required step="any">
     <label for="pianoShortLocation">Short location:</label>
     <input type="text" id="pianoShortLocation" name="pianoShortLocation" required>
     <label for="description">Description:</label>
     <input type="text" id="description" name="description" required>
-    <input type="submit" value="Submit">
+    <input type="submit" value="Submit" style="margin-top: 1rem;">
     <pre id="output"></pre>
 </form>
 <script>
+    var pianos = [{% for airport in site.pianos | sort (attribute='iata') %}"{{ airport.iata }}"{% if not loop.last %},{% endif %} {% endfor %}];
+    // transform to lower
+    pianos = pianos.map(function(iata) {
+        return iata.toLowerCase();
+    });
+    // if iata code in "pianos", show alert
+    var iata = document.querySelector('#iata');
+    iata.addEventListener("change", function(event) {
+        var iata = event.target.value;
+        if (pianos.includes(iata)) {
+            var notification = document.querySelector('#notification');
+            notification.innerHTML = "This IATA code is already in use.";
+            notification.style.color = "red";
+        } else {
+            var notification = document.querySelector('#notification');
+            notification.innerHTML = "";
+        }
+    });
+
     var airport_name = document.querySelector('#title');
     airport_name.addEventListener("change", function(event) {
         var airport_name = event.target.value;
