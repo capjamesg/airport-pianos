@@ -44,7 +44,7 @@ noindex: true
     var iata = document.querySelector('#iata');
     iata.addEventListener("change", function(event) {
         var iata = event.target.value;
-        if (pianos.includes(iata)) {
+        if (pianos.includes(iata.toLowerCase())) {
             var notification = document.querySelector('#notification');
             notification.innerHTML = "This IATA code is already in use.";
             notification.style.color = "red";
