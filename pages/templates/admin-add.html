@@ -1,0 +1,72 @@
+---
+layout: main
+title: Add an Airport Piano - Admin
+permalink: /admin-add
+noindex: true
+---
+
+<h1>Add a piano form</h1>
+
+<p>The form below generates a JSON record for use in adding data to the database.</p>
+
+<form>
+    <label for="title">Airport name:</label>
+    <input type="text" id="title" name="title" required>
+    <label for="iata">IATA Code:</label>
+    <input type="text" id="iata" name="iata" required>
+    <p style="margin-top: 0"><a id="search-iata">search for iata</a></p>
+    <label for="city">City:</label>
+    <input type="text" id="city" name="city" required>
+    <label for="state">State:</label>
+    <input type="text" id="state" name="state" required>
+    <label for="country">Country:</label>
+    <input type="text" id="country" name="country" required>
+    <label for="lat">Latitude:</label>
+    <input type="number" id="lat" name="lat" required>
+    <p style="margin-top: 0;"><a id="search-lat-long">search for lat long</a></p>
+    <label for="long">Longitude:</label>
+    <input type="number" id="long" name="long" required>
+    <label for="pianoShortLocation">Short location:</label>
+    <input type="text" id="pianoShortLocation" name="pianoShortLocation" required>
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description" required>
+    <input type="submit" value="Submit">
+    <pre id="output"></pre>
+</form>
+<script>
+    var airport_name = document.querySelector('#title');
+    airport_name.addEventListener("change", function(event) {
+        var airport_name = event.target.value;
+        var url = "https://www.google.com/search?q=" + airport_name + "+airport code";
+
+        document.querySelector('#search-iata').setAttribute("href", url);
+        document.querySelector('#search-iata').setAttribute("target", "_blank");
+
+        var latLongUrl = "https://www.google.com/search?q=" + airport_name + "+airport+lat+long";
+        document.querySelector('#search-lat-long').setAttribute("href", latLongUrl);
+        document.querySelector('#search-lat-long').setAttribute("target", "_blank");
+    });
+    // on form submit
+    var form = document.querySelector('form');
+    form.addEventListener("submit", function(event) {
+        event.preventDefault();
+        var output = document.querySelector('#output');
+        var record = {
+            "iata": form.iata.value,
+            "title": form.title.value,
+            "city": form.city.value,
+            "state": form.state.value,
+            "country": form.country.value,
+            "lat": form.lat.value,
+            "long": form.long.value,
+            "zoom": "12",
+            "hasPiano": "true",
+            "pianoShortLocation": form.pianoShortLocation.value,
+            "lastConfirmed": new Date().getFullYear(),
+            "description": form.description.value,
+            "slug": form.iata.value.toLowerCase()
+        }
+        output.innerHTML = JSON.stringify(record, null, 2);
+        output.style.display = "block";
+    });
+</script>
