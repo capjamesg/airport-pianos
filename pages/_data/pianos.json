@@ -1,4 +1,18 @@
 [    {
+  "iata": "HND",
+  "title": "Haneda International Airport",
+  "city": "Haneda",
+  "state": "Tokyo",
+  "country": "Japan",
+  "lat": "35.5483",
+  "long": "139.7780",
+  "zoom": "12",
+  "hasPiano": "true",
+  "pianoShortLocation": "Terminal 3 Arrivals",
+  "lastConfirmed": 2025,
+  "description": "Haneda International Airport has a piano in Terminal 3 Arrivals.",
+  "slug": "hnd"
+},{
         "iata": "CPH",
         "title": "Copenhagen Kastrup International Airport",
         "city": "Copenhagen",
