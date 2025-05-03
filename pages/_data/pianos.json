@@ -1,4 +1,18 @@
 [    {
+  "iata": "PRG",
+  "title": "Prague Vaclav Havel Airport",
+  "city": "Prague",
+  "state": "Prague",
+  "country": "Poland",
+  "lat": "50.1018",
+  "long": "14.2632",
+  "zoom": "12",
+  "hasPiano": "true",
+  "pianoShortLocation": "Terminal 2",
+  "lastConfirmed": 2025,
+  "description": "Prague Vaclav Havel Airport has a piano in Terminal 2.",
+  "slug": "prg"
+},{
   "iata": "IST",
   "title": "Istanbul Airport",
   "city": "Istanbul",
