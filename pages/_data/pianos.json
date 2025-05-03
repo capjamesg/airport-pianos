@@ -9,7 +9,7 @@
   "zoom": "12",
   "hasPiano": "true",
   "pianoShortLocation": "IST has a piano in the airport lounge.",
-  "lastConfirmed": 2025,
+  "lastConfirmed": "May 2025",
   "description": "IST has a piano in the airport lounge.",
   "slug": "ist"
 },{
@@ -550,8 +550,8 @@
         "zoom": "10",
         "hasPiano": "true",
         "pianoShortLocation": "Between both terminals",
-        "lastConfirmed": "August 2023",
-        "description": "Side room between the two terminals near a small museum display case. BTV is a small airport and not hard to find.",
+        "lastConfirmed": "May 2025",
+        "description": "Across from Gate 7, behind The Skinny Pancake. ",
         "slug": "btv"
     },
     {
