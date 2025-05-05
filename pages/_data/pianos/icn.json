@@ -1,0 +1,19 @@
+{
+    "iata": "ICN",
+    "title": "Incheon International Airport",
+    "city": "Incheon",
+    "state": "Incheon",
+    "country": "South Korea",
+    "lat": "37.4491",
+    "lon": "126.4505",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "After passing through security",
+    "lastConfirmed": "August 2023",
+    "description": "Pianos are available for public use in T1 and T2. Both are located after customs and immigrations.",
+    "rating": "5",
+    "reviews": "1",
+    "slug": "icn",
+    "layout": "pianos",
+    "collections": "pianos"
+}

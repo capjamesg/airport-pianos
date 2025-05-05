@@ -1,0 +1,17 @@
+{
+    "iata": "MUC",
+    "title": "Munich International Airport",
+    "city": "Munich",
+    "state": "Munich",
+    "country": "Germany",
+    "lat": "48.3536",
+    "long": "11.7832",
+    "zoom": "12",
+    "hasPiano": "false",
+    "pianoShortLocation": "N/A",
+    "lastConfirmed": "2025",
+    "description": "Munich airport used to have a piano in front of K\u00e4fer Bistro. It no longer has a piano.",
+    "slug": "muc",
+    "layout": "pianos",
+    "collections": "pianos"
+}

@@ -1,0 +1,17 @@
+{
+    "iata": "SNA",
+    "title": "John Wayne Airport",
+    "city": "Orange County",
+    "state": "California",
+    "country": "United States",
+    "lat": "33.6747",
+    "long": "117.8692",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Between Terminals B and C",
+    "lastConfirmed": "2024",
+    "description": "John Wayne Airport has a piano between Terminals B and C.",
+    "slug": "sna",
+    "layout": "pianos",
+    "collections": "pianos"
+}

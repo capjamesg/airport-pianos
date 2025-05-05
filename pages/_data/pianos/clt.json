@@ -1,0 +1,17 @@
+{
+    "iata": "CLT",
+    "title": "Charlotte Douglas International Airport",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "country": "United States",
+    "lat": "35.2163",
+    "lon": "80.9539",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Main concourse",
+    "lastConfirmed": "August 2023",
+    "description": "A piano is available for use in the main concourse. at the intersection area of terminals E and the other terminals. The piano is close to some shops in the airport.",
+    "slug": "clt",
+    "layout": "pianos",
+    "collections": "pianos"
+}

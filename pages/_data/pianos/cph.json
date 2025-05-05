@@ -1,0 +1,17 @@
+{
+    "iata": "CPH",
+    "title": "Copenhagen Kastrup International Airport",
+    "city": "Copenhagen",
+    "state": "Copenhagen",
+    "country": "Denmark",
+    "lat": "55.6120",
+    "long": "12.6477",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 3",
+    "lastConfirmed": "2025",
+    "description": "There is a piano for public use located at Terminal 3.",
+    "slug": "cph",
+    "layout": "pianos",
+    "collections": "pianos"
+}

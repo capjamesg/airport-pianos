@@ -1,0 +1,17 @@
+{
+    "iata": "PVD",
+    "title": "Rhode Island TF Green International Airport",
+    "city": "Warwick",
+    "state": "Rhode Island",
+    "country": "United States",
+    "lat": "41.7217",
+    "long": "-71.4295",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Baggage claim",
+    "lastConfirmed": "2024",
+    "description": "Rhode Island TF Green International Airport has a piano in the baggage claim area.",
+    "slug": "pvd",
+    "layout": "pianos",
+    "collections": "pianos"
+}

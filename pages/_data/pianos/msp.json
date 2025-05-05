@@ -1,0 +1,17 @@
+{
+    "iata": "MSP",
+    "title": "Minneapolis\u2013Saint Paul International Airport",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "country": "United States",
+    "lat": "44.8803",
+    "long": "-93.2169",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 1, Terminal 2 Gate H11",
+    "lastConfirmed": "2024",
+    "description": "MSP airport has a piano in Terminal 1 by the main 'hall' area, and in Terminal 2 near gate H11.",
+    "slug": "msp",
+    "layout": "pianos",
+    "collections": "pianos"
+}

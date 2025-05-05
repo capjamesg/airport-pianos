@@ -1,0 +1,17 @@
+{
+    "iata": "RIC",
+    "title": "Richmond International Airport",
+    "city": "Richmond",
+    "state": "Virginia",
+    "country": "United States",
+    "lat": "37.505",
+    "long": "-77.3241666667",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Unknown",
+    "lastConfirmed": "2024",
+    "description": "Richmond International Airport has a piano, but the location was not submitted to this website. If you see the piano, consider submitting the location to this website so others can find it. Happy playing!",
+    "slug": "ric",
+    "layout": "pianos",
+    "collection": "piano"
+}

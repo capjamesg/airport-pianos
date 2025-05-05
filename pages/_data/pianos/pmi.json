@@ -1,0 +1,17 @@
+{
+    "iata": "PMI",
+    "title": "Palma de Mallorca",
+    "city": "Palma",
+    "state": "Palma",
+    "country": "Spain",
+    "lat": "40.8847",
+    "long": "14.2892",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal D, Gate C, on the way to C60.",
+    "lastConfirmed": "2025",
+    "description": "Palma de Mallorca has an airport in Terminal D, Gate C, on the way to C60.",
+    "slug": "pmi",
+    "layout": "pianos",
+    "collections": "pianos"
+}

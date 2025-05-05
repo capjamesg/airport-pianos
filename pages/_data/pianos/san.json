@@ -1,0 +1,17 @@
+{
+    "iata": "SAN",
+    "title": "San Diego International Airport",
+    "city": "San Diego",
+    "state": "California",
+    "country": "United States",
+    "lat": "32.7332",
+    "long": "-117.1897",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 2",
+    "lastConfirmed": "2025",
+    "description": "San Diego International Airport has a piano in Terminal 2, near gate 36.",
+    "slug": "san",
+    "layout": "pianos",
+    "collections": "pianos"
+}

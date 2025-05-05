@@ -1,0 +1,17 @@
+{
+    "iata": "SJC",
+    "title": "San Jos\u00e9 Mineta International Airport",
+    "city": "San Jos\u00e9",
+    "state": "California",
+    "country": "United States",
+    "lat": "37.3640",
+    "long": "-121.9289",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal B",
+    "lastConfirmed": "2025",
+    "description": "San Jos\u00e9 airport no longer has a piano. The piano was previously in Terminal B, near baggage claim. If this has changed, please let us know!",
+    "slug": "sjc",
+    "layout": "pianos",
+    "collections": "pianos"
+}

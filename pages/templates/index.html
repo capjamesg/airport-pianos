@@ -40,7 +40,7 @@ title: Find an Airport Piano
         </tr>
     </thead>
     <tr id="no-results" style="display: none;"><td>No results found.</td><td></td><td></td></tr>
-    {% for airport in site.pianos | sort (attribute='iata') %}
+    {% for airport in site.pianoss | sort (attribute='iata') %}
     <tr class="h-entry">
         <td><a href="/pianos/{{airport.slug}}/" class="u-url p-name">{{airport.title}}</a></td>
         <td>{{airport.iata}}</td>

@@ -1,0 +1,17 @@
+{
+    "iata": "NCE",
+    "title": "Nice C\u00f4te d'Azur Airport",
+    "city": "Nice",
+    "state": "Provence-Alpes-C\u00f4te d'Azur",
+    "country": "France",
+    "lat": "43.6598",
+    "lon": "7.2148",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 1",
+    "lastConfirmed": "August 2023",
+    "description": "A piano is available for public use in Terminal 1.",
+    "slug": "nce",
+    "layout": "pianos",
+    "collections": "pianos"
+}

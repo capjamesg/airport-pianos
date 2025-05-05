@@ -1,0 +1,17 @@
+{
+    "iata": "BGY",
+    "title": "Orio al Serio International Airport",
+    "city": "Milan",
+    "state": "Milan",
+    "country": "Italy",
+    "lat": "45.6690",
+    "long": "9.7074",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Gate A7",
+    "lastConfirmed": "2025",
+    "description": "Orio al Serio International Airport has a piano at gate A7",
+    "slug": "bgy",
+    "layout": "pianos",
+    "collections": "pianos"
+}

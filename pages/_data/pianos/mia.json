@@ -1,0 +1,17 @@
+{
+    "iata": "MIA",
+    "title": "Miami International Airport",
+    "city": "Miami",
+    "state": "Florida",
+    "country": "United States",
+    "lat": "25.7923",
+    "long": "-80.2823",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Gate E",
+    "lastConfirmed": "2025",
+    "description": "Miami International Airport has a piano at Gate E",
+    "slug": "mia",
+    "layout": "pianos",
+    "collections": "pianos"
+}

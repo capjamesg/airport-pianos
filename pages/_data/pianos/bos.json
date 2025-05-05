@@ -1,0 +1,17 @@
+{
+    "iata": "BOS",
+    "title": "Boston Logan International Airport",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "country": "United States",
+    "lat": "42.3656",
+    "long": "-71.0096",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Gate E8 after security, in front of Duty Free Beauty",
+    "lastConfirmed": "2025",
+    "description": "Boston Logan International Airport has a piano at gate E8 after security, in front of Duty Free Beauty.",
+    "slug": "bos",
+    "layout": "pianos",
+    "collections": "pianos"
+}

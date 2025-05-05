@@ -1,0 +1,17 @@
+{
+    "iata": "TLL",
+    "title": "Tallinn Airport",
+    "city": "Tallinn",
+    "state": "Estonia",
+    "country": "Estonia",
+    "lat": "59.4146",
+    "long": "24.8335",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 1",
+    "lastConfirmed": "2024",
+    "description": "Tallinn Airport has a piano in Terminal 1.",
+    "slug": "tll",
+    "layout": "pianos",
+    "collections": "pianos"
+}

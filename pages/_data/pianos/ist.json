@@ -1,0 +1,17 @@
+{
+    "iata": "IST",
+    "title": "Istanbul Airport",
+    "city": "Istanbul",
+    "state": "Istanbul",
+    "country": "T\u00fcrkiye",
+    "lat": "41.2768",
+    "long": "28.7301",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "IST has a piano in the airport lounge.",
+    "lastConfirmed": "May 2025",
+    "description": "IST has a piano in the airport lounge.",
+    "slug": "ist",
+    "layout": "pianos",
+    "collections": "pianos"
+}

@@ -1,0 +1,17 @@
+{
+    "iata": "OSL",
+    "title": "Oslo Gardermoen Airport",
+    "city": "Oslo",
+    "state": "Oslo",
+    "country": "Norway",
+    "lat": "60.1979",
+    "long": "11.0963",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Has a piano",
+    "lastConfirmed": "2024",
+    "description": "Oslo airport has a piano, but the exact location was not reported in the submission to this website.",
+    "slug": "osl",
+    "layout": "pianos",
+    "collections": "pianos"
+}

@@ -1,0 +1,17 @@
+{
+    "iata": "AUS",
+    "title": "Austin Bergstrom International Airport",
+    "city": "Austin",
+    "state": "Texas",
+    "country": "United States",
+    "lat": "30.1940",
+    "long": "-97.6712",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Main terminal",
+    "lastConfirmed": "2024",
+    "description": "Austin Bergstrom International Airport has a piano in the main terminal.",
+    "slug": "aus",
+    "layout": "pianos",
+    "collections": "pianos"
+}

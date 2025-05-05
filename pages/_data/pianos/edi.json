@@ -1,0 +1,19 @@
+{
+    "iata": "EDI",
+    "title": "Edinburgh Airport",
+    "city": "Edinburgh",
+    "state": "Scotland",
+    "country": "United Kingdom",
+    "lat": "55.950136",
+    "lon": "-3.372947",
+    "zoom": "10",
+    "hasPiano": "false",
+    "pianoShortLocation": "Departures",
+    "lastConfirmed": "July 2023",
+    "description": "A grand piano was previously available for public use in the Departures area. In July 2023, the piano was not available.",
+    "rating": "4",
+    "reviews": "1",
+    "slug": "edi",
+    "layout": "pianos",
+    "collections": "pianos"
+}

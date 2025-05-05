@@ -1,0 +1,17 @@
+{
+    "iata": "YYC",
+    "title": "Calgary International Airport",
+    "city": "Calgary",
+    "state": "Alberta",
+    "country": "Canada",
+    "lat": "51.1308",
+    "long": "114.0131",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Departures",
+    "lastConfirmed": "August 2023",
+    "description": "Gate D, in the intersection between the D80-D97 hallway and the D72+ hallway.",
+    "slug": "yyc",
+    "layout": "pianos",
+    "collections": "pianos"
+}

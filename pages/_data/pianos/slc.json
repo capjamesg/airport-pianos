@@ -1,0 +1,19 @@
+{
+    "iata": "SLC",
+    "title": "Salt Lake City International Airport",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "country": "United States",
+    "lat": "40.788389",
+    "lon": "-111.977772",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "After passing through security near the A gate.",
+    "lastConfirmed": "February 2025",
+    "description": "A piano is available for public use after passing through security near the A gate.",
+    "rating": "5",
+    "reviews": "2",
+    "slug": "slc",
+    "layout": "pianos",
+    "collections": "pianos"
+}

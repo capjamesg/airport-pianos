@@ -1,0 +1,17 @@
+{
+    "iata": "JFK",
+    "title": "John F. Kennedy International Airport",
+    "city": "New York",
+    "state": "New York",
+    "country": "United States",
+    "lat": "40.6446",
+    "long": "73.7797",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 4 and Terminal 7",
+    "lastConfirmed": "N/A",
+    "description": "A piano is available for use in Terminal 4 and Terminal 7.",
+    "slug": "jfk",
+    "layout": "pianos",
+    "collections": "pianos"
+}

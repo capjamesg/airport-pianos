@@ -1,0 +1,17 @@
+{
+    "iata": "CDG",
+    "title": "Charles de Gaulle Airport",
+    "city": "Paris",
+    "state": "\u00cele-de-France",
+    "country": "France",
+    "lat": "49.0079",
+    "lon": "2.5508",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminals 1 and 3 3",
+    "lastConfirmed": "August 2023",
+    "description": "A piano is available for public use in Terminal 3 at gate area 2 and in Terminal.",
+    "slug": "cdg",
+    "layout": "pianos",
+    "collections": "pianos"
+}

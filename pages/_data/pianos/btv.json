@@ -1,0 +1,17 @@
+{
+    "iata": "BTV",
+    "title": "Burlington International Airport",
+    "city": "Burlington",
+    "state": "Vermont",
+    "country": "United States",
+    "lat": "44.4698",
+    "long": "-73.1520",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Between both terminals",
+    "lastConfirmed": "May 2025",
+    "description": "Across from Gate 7, behind The Skinny Pancake. ",
+    "slug": "btv",
+    "layout": "pianos",
+    "collections": "pianos"
+}

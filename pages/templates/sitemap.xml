@@ -1,12 +1,9 @@
----
-permalink: /sitemap.xml
----
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {% for page in site.pages %}
+    {% for pg in site.pages %}
         <url>
-            <loc>https://airportpianos.org{{ page.url }}</loc>
-            <lastmod>{{ site.build_date }}</lastmod>
+            <loc>https://airportpianos.org{{ pg.url }}</loc>
+            <lastmod>{{ page.build_date }}</lastmod>
         </url>
     {% endfor %}
 </urlset>

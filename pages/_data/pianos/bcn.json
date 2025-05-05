@@ -1,0 +1,17 @@
+{
+    "iata": "BCN",
+    "title": "Josep Tarradellas Barcelona\u2013El Prat Airport",
+    "city": "Barcelona",
+    "state": "Barcelona",
+    "country": "Spain",
+    "lat": "41.2983",
+    "long": "2.0800",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 1",
+    "lastConfirmed": "2025",
+    "description": "There is a piano for public use in Terminal 1.",
+    "slug": "bcn",
+    "layout": "pianos",
+    "collections": "pianos"
+}

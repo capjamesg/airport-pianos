@@ -1,0 +1,17 @@
+{
+    "iata": "BWI",
+    "title": "Baltimore/Washington International Thurgood Marshall Airport",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "country": "United States",
+    "lat": "39.1776",
+    "long": "-76.6684",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Unknown",
+    "lastConfirmed": "2024",
+    "description": "Baltimore/Washington International Thurgood Marshall Airport may have a piano, but the location was not submitted to this website. If you see the piano, consider submitting the location to this website so others can find it.",
+    "slug": "bwi",
+    "layout": "pianos",
+    "collections": "pianos"
+}

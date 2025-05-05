@@ -1,0 +1,17 @@
+{
+    "iata": "ADL",
+    "title": "Adelaide Airport",
+    "city": "Adelaide",
+    "state": "Adelaide",
+    "country": "Australia",
+    "lat": "-34.9462",
+    "long": "-138.5312",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 1",
+    "lastConfirmed": "2024",
+    "description": "Adelaide Airport has a piano in Terminal 1, after security.",
+    "slug": "adl",
+    "layout": "pianos",
+    "collections": "pianos"
+}

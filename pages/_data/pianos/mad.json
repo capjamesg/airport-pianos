@@ -1,0 +1,17 @@
+{
+    "iata": "MAD",
+    "title": "Adolfo Su\u00e1rez Madrid-Barajas Airport",
+    "city": "Madrid",
+    "state": "Madrid",
+    "country": "Spain",
+    "lat": "40.4895",
+    "long": "-3.5643",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal 4.",
+    "lastConfirmed": "2025",
+    "description": "There is a piano for public use available in Terminal 4.",
+    "slug": "mad",
+    "layout": "pianos",
+    "collections": "pianos"
+}

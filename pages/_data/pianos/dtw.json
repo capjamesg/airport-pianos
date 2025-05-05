@@ -1,0 +1,19 @@
+{
+    "iata": "DTW",
+    "title": "Detroit Metropolitan Wayne County Airport",
+    "city": "Detroit",
+    "state": "Michigan",
+    "country": "United States",
+    "lat": "42.212444",
+    "lon": "-83.353389",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "McNamara Terminal",
+    "lastConfirmed": "2022",
+    "description": "A piano is available for public use in the McNamara Terminal at Gate A73.",
+    "rating": "5",
+    "reviews": "1",
+    "slug": "dtw",
+    "layout": "pianos",
+    "collections": "pianos"
+}

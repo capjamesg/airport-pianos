@@ -1,0 +1,19 @@
+{
+    "iata": "EWR",
+    "title": "Newark Liberty International Airport",
+    "city": "Newark",
+    "state": "New Jersey",
+    "country": "United States",
+    "lat": "40.689543574161426",
+    "lon": "-74.17441948791812",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Terminal C, Gate C73",
+    "lastConfirmed": "April 2025",
+    "description": "A grand piano is available for use at Terminal C at Gate C73.",
+    "rating": "5",
+    "reviews": "1",
+    "slug": "ewr",
+    "layout": "pianos",
+    "collections": "pianos"
+}

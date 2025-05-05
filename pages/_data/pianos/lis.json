@@ -1,0 +1,17 @@
+{
+    "iata": "LIS",
+    "title": "Humberto Delgado Airport",
+    "city": "Lisbon",
+    "state": "Lisbon",
+    "country": "Portugal",
+    "lat": "38.7800",
+    "long": "9.1350",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "No piano",
+    "lastConfirmed": "March 2024",
+    "description": "Lisbon airport does not have a piano.",
+    "slug": "lis",
+    "layout": "pianos",
+    "collections": "pianos"
+}

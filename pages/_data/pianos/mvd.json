@@ -1,0 +1,17 @@
+{
+    "iata": "MVD",
+    "title": "Aeropuerto Internacional de Carrasco",
+    "city": "Ciudad de la Costa",
+    "state": "Ciudad de la Costa",
+    "country": "Uruguay",
+    "lat": "-34.8371",
+    "long": "-56.0162",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Departure gate",
+    "lastConfirmed": "2024",
+    "description": "MVD airport has a piano at the departure gate.",
+    "slug": "mvd",
+    "layout": "pianos",
+    "collections": "pianos"
+}

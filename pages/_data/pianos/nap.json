@@ -1,0 +1,17 @@
+{
+    "iata": "NAP",
+    "title": "Capodichino Airport",
+    "city": "Naples",
+    "state": "Naples",
+    "country": "Italy",
+    "lat": "40.8847",
+    "long": "14.2892",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Area C, Departures",
+    "lastConfirmed": "2024",
+    "description": "Capodichino Airport has an airport in Area C, Departures.",
+    "slug": "nap",
+    "layout": "pianos",
+    "collections": "pianos"
+}

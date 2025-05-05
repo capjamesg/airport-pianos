@@ -1,0 +1,17 @@
+{
+    "iata": "CTA",
+    "title": "Catania\u2013Fontanarossa Airport",
+    "city": "Catania",
+    "state": "Catania",
+    "country": "Italy",
+    "lat": "37.4663",
+    "long": "15.0651",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Near gate 5, after the security check",
+    "lastConfirmed": "2025",
+    "description": "Catania\u2013Fontanarossa Airport has a piano near gate 5, after the security check.",
+    "slug": "cta",
+    "layout": "pianos",
+    "collections": "pianos"
+}

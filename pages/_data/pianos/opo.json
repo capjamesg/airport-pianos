@@ -1,0 +1,17 @@
+{
+    "iata": "OPO",
+    "title": "Francisco S\u00e1 Carneiro Airport",
+    "city": "Porto",
+    "state": "Porto",
+    "country": "Portugal",
+    "lat": "41.2414",
+    "long": "-8.6787",
+    "zoom": "12",
+    "hasPiano": "true",
+    "pianoShortLocation": "Unknown",
+    "lastConfirmed": "2024",
+    "description": "Porto Airport has a piano near passport control for Gates 1-11. It was also noted the piano may not be playable at the moment in April 2024, or be available for play by professional musicians; we encourage you to check.",
+    "slug": "opo",
+    "layout": "pianos",
+    "collections": "pianos"
+}

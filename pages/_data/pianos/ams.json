@@ -1,0 +1,19 @@
+{
+    "iata": "AMS",
+    "title": "Amsterdam Airport Schiphol",
+    "city": "Amsterdam",
+    "state": "",
+    "country": "Netherlands",
+    "lat": "52.308613",
+    "lon": "4.763889",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Departures",
+    "lastConfirmed": "2022",
+    "description": "A piano is available for public use in the airport.",
+    "rating": "5",
+    "reviews": "1",
+    "slug": "ams",
+    "layout": "pianos",
+    "collections": "pianos"
+}

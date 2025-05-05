@@ -1,0 +1,19 @@
+{
+    "iata": "CIA",
+    "title": "Ciampino-G. B. Pastine International Airport",
+    "city": "Rome",
+    "state": "Lazio",
+    "country": "Italy",
+    "lat": "41.7991",
+    "lon": "12.5929",
+    "zoom": "10",
+    "hasPiano": "true",
+    "pianoShortLocation": "Main Gates",
+    "lastConfirmed": "July 2022",
+    "description": "A piano is available for public use after security and before passport check in the main gates.",
+    "rating": "5",
+    "reviews": "1",
+    "slug": "cia",
+    "layout": "pianos",
+    "collections": "pianos"
+}
