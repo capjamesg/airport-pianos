@@ -22,13 +22,6 @@ noindex: true
     <input type="text" id="state" name="state" required autocomplete="off">
     <label for="country">Country:</label>
     <input type="text" id="country" name="country" required autocomplete="off">
-    <label for="lat">Latitude:</label>
-    <input type="number" id="lat" name="lat" required step="any" autocomplete="off">
-    <p style="margin-top: 0;"><a id="search-lat-long">search for lat long</a></p>
-    <label for="long">Longitude:</label>
-    <input type="number" id="long" name="long" required step="any" autocomplete="off">
-    <label for="pianoShortLocation">Short location:</label>
-    <input type="text" id="pianoShortLocation" name="pianoShortLocation" required autocomplete="off">
     <label for="description">Description:</label>
     <input type="text" id="description" name="description" required autocomplete="off">
     <input type="submit" value="Submit" style="margin-top: 1rem;">
@@ -84,7 +77,9 @@ noindex: true
             "pianoShortLocation": form.pianoShortLocation.value,
             "lastConfirmed": new Date().getFullYear(),
             "description": form.description.value,
-            "slug": form.iata.value.toLowerCase()
+            "slug": form.iata.value.toLowerCase(),
+            "collections": "pianos",
+            "layout": "pianos"
         }
         output.innerHTML = JSON.stringify(record, null, 2);
         output.style.display = "block";
