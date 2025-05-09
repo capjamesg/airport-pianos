@@ -1,0 +1,17 @@
+{
+  "iata": "SPU",
+  "title": "Split Airport",
+  "city": "Kaštel Štafilić",
+  "state": "Croatia",
+  "country": "Croatia",
+  "lat": "",
+  "long": "",
+  "zoom": "12",
+  "hasPiano": "true",
+  "pianoShortLocation": "",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in or at the restaurant. ",
+  "slug": "spu",
+  "collections": "pianos",
+  "layout": "pianos"
+}
