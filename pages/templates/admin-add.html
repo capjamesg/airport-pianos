@@ -54,10 +54,6 @@ noindex: true
 
         document.querySelector('#search-iata').setAttribute("href", url);
         document.querySelector('#search-iata').setAttribute("target", "_blank");
-
-        var latLongUrl = "https://www.google.com/search?q=" + airport_name + "+airport+lat+long";
-        document.querySelector('#search-lat-long').setAttribute("href", latLongUrl);
-        document.querySelector('#search-lat-long').setAttribute("target", "_blank");
     });
     // on form submit
     var form = document.querySelector('form');
@@ -70,11 +66,8 @@ noindex: true
             "city": form.city.value,
             "state": form.state.value,
             "country": form.country.value,
-            "lat": form.lat.value,
-            "long": form.long.value,
             "zoom": "12",
             "hasPiano": "true",
-            "pianoShortLocation": form.pianoShortLocation.value,
             "lastConfirmed": new Date().getFullYear(),
             "description": form.description.value,
             "slug": form.iata.value.toLowerCase(),
