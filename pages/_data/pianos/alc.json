@@ -1,0 +1,14 @@
+{
+  "iata": "ALC",
+  "title": "Alicante-Elche Miguel Hernández Airport",
+  "city": "Alicante",
+  "state": "Spain",
+  "country": "Spain",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano at Gate 43.",
+  "slug": "alc",
+  "collections": "pianos",
+  "layout": "pianos"
+}
