@@ -59,7 +59,6 @@ noindex: true
     var form = document.querySelector('form');
     form.addEventListener("submit", function(event) {
         event.preventDefault();
-        var output = document.querySelector('#output');
         var record = {
             "iata": form.iata.value,
             "title": form.title.value,
@@ -73,8 +72,9 @@ noindex: true
             "slug": form.iata.value.toLowerCase(),
             "collections": "pianos",
             "layout": "pianos"
-        }
-        output.innerHTML = JSON.stringify(record, null, 2);
-        output.style.display = "block";
+        };
+        var url = `https://github.com/capjamesg/airport-pianos/new/main/pages/_data/pianos/?filename=${form.iata.value}.json&value=`;
+        url += encodeURIComponent(JSON.stringify(record, null, 2));
+        window.open(url, '_blank');
     });
 </script>
