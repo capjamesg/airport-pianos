@@ -5,7 +5,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ page.title }}</title>
+        <title>{% if page.type == "piano" %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}</title>
 
         <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
 
@@ -17,7 +17,7 @@
 
         <meta name="description" content="Resources to find a piano and to help donate pianos to airports.">
 
-        <meta name="og:title" content="{{ title }}">
+        <meta name="og:title" content="{% if page.type == 'piano' %}{{ page.display_title }}{% else %}{{ page.title }}{% endif %}">
         <meta name="og:description" content="Resources to help donate pianos to airports.">
         <meta name="og:image" content="/assets/background.jpeg">
         <link rel="create" href="/admin-add" />
