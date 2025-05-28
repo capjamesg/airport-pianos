@@ -1,0 +1,14 @@
+{
+  "iata": "PHL",
+  "title": "Philadelphia International Airport",
+  "city": "Philadelphia",
+  "state": "Pennsylvania",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano on the B/C stage.",
+  "slug": "phl",
+  "collections": "pianos",
+  "layout": "pianos"
+}
