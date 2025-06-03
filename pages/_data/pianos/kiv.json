@@ -1,0 +1,14 @@
+{
+  "iata": "KIV",
+  "title": "Chișinău International Airport",
+  "city": "Chișinău",
+  "state": "Chișinău",
+  "country": "Moldova",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "Chișinău International Airport has a piano in the waiting area.",
+  "slug": "kiv",
+  "collections": "pianos",
+  "layout": "pianos"
+}
