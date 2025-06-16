@@ -1,0 +1,14 @@
+{
+  "iata": "ATL",
+  "title": "Hartsfield-Jackson Atlanta International Airport",
+  "city": "Atlanta",
+  "state": "Georgia",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "Atlanta International Airport has two pianos: one on Concourse A and another on Concourse E.",
+  "slug": "atl",
+  "collections": "pianos",
+  "layout": "pianos"
+}
