@@ -10,7 +10,7 @@
     "hasPiano": "true",
     "pianoShortLocation": "Between Terminals B and C",
     "lastConfirmed": "2024",
-    "description": "John Wayne Airport has a piano between Terminals B and C.",
+    "description": "John Wayne Airport has a piano between Terminals B and C, and/or at Gate 9.",
     "slug": "sna",
     "layout": "pianos",
     "collections": "pianos"
