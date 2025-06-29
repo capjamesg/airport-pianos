@@ -8,9 +8,9 @@
     "long": "-80.2823",
     "zoom": "12",
     "hasPiano": "true",
-    "pianoShortLocation": "Gate E",
+    "pianoShortLocation": "No piano",
     "lastConfirmed": "2025",
-    "description": "Miami International Airport has a piano at Gate E",
+    "description": "Miami International Airport no longer has a piano.",
     "slug": "mia",
     "layout": "pianos",
     "collections": "pianos"
