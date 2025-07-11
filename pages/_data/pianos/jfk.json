@@ -8,9 +8,9 @@
     "long": "73.7797",
     "zoom": "12",
     "hasPiano": "true",
-    "pianoShortLocation": "Terminal 4 and Terminal 7",
+    "pianoShortLocation": "Terminal 7",
     "lastConfirmed": "N/A",
-    "description": "A piano is available for use in Terminal 4 and Terminal 7.",
+    "description": "A piano is available for use in Terminal 7. There used to be a piano at Gate A5 in Terminal 4 but it was reported to be unavailable as of July 2025.",
     "slug": "jfk",
     "layout": "pianos",
     "collections": "pianos"
