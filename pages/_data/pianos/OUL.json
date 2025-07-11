@@ -1,0 +1,14 @@
+{
+  "iata": "OUL",
+  "title": "Oulu Airport",
+  "city": "Oulu",
+  "state": "Oulu",
+  "country": "Finland",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano at Gate D14.",
+  "slug": "oul",
+  "collections": "pianos",
+  "layout": "pianos"
+}
