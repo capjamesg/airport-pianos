@@ -1,0 +1,14 @@
+{
+  "iata": "KUL",
+  "title": "Kuala Lumpur International Airport",
+  "city": "Selangor",
+  "state": "Selangor",
+  "country": "Malaysia",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in Terminal 1, opposite the aerotrain to C gates and Dimensi duty free.",
+  "slug": "kul",
+  "collections": "pianos",
+  "layout": "pianos"
+}
