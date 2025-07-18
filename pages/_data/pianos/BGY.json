@@ -1,0 +1,14 @@
+{
+  "iata": "BGY",
+  "title": "Il Caravaggio International Airport",
+  "city": "Milan",
+  "state": "Milan",
+  "country": "Italy",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a Yamaha grand piano in the A gates area.",
+  "slug": "bgy",
+  "collections": "pianos",
+  "layout": "pianos"
+}
