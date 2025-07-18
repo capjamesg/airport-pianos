@@ -1,0 +1,14 @@
+{
+  "iata": "ALG",
+  "title": "Houari Boumediene Airport",
+  "city": "Algiers",
+  "state": "Algiers",
+  "country": "Algeria",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in Terminal 1.",
+  "slug": "alg",
+  "collections": "pianos",
+  "layout": "pianos"
+}
