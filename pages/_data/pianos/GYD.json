@@ -1,0 +1,14 @@
+{
+  "iata": "GYD",
+  "title": "Heydar Aliyev International Airport",
+  "city": "Şimal",
+  "state": "Şimal",
+  "country": "Azerbaijan",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "Heydar Aliyev International Airport has a piano. After passing through security, you'll find a small café — the piano is located inside it.",
+  "slug": "gyd",
+  "collections": "pianos",
+  "layout": "pianos"
+}
