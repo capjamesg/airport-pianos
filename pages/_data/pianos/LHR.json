@@ -1,0 +1,14 @@
+{
+  "iata": "LHR",
+  "title": "London Heathrow Airport",
+  "city": "London",
+  "state": "London",
+  "country": "United Kingdom",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano near the end of Terminal 4.",
+  "slug": "lhr",
+  "collections": "pianos",
+  "layout": "pianos"
+}
