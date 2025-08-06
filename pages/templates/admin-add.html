@@ -73,7 +73,7 @@ noindex: true
             "collections": "pianos",
             "layout": "pianos"
         };
-        var url = `https://github.com/capjamesg/airport-pianos/new/main/pages/_data/pianos/?filename=${form.iata.value}.json&value=`;
+        var url = `https://github.com/capjamesg/airport-pianos/new/main/pages/_data/pianos/?filename=${form.iata.value.toLowerCase()}.json&value=`;
         url += encodeURIComponent(JSON.stringify(record, null, 2));
         window.open(url, '_blank');
     });
