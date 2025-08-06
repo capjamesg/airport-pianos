@@ -1,0 +1,14 @@
+{
+  "iata": "SAV",
+  "title": "Savannah/Hilton Head International Airport",
+  "city": "Savannah",
+  "state": "Georgia",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano at Savannah/Hilton Head International Airport in the courtyard area as you walk toward the exit but still on the side after security. ",
+  "slug": "sav",
+  "collections": "pianos",
+  "layout": "pianos"
+}
