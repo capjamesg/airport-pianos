@@ -1,0 +1,14 @@
+{
+  "iata": "MEL",
+  "title": "Melbourne International Airport",
+  "city": "Melbourne",
+  "state": "Melbourne",
+  "country": "Australia",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano at Melbourne International Airport in Terminal 1 at Gate 15.",
+  "slug": "mel",
+  "collections": "pianos",
+  "layout": "pianos"
+}
