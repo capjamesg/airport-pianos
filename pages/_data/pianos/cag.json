@@ -1,0 +1,14 @@
+{
+  "iata": "CAG",
+  "title": "Cagliari Elmas Airport",
+  "city": "Cagliari",
+  "state": "Sardinia",
+  "country": "Italy",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano before security.",
+  "slug": "cag",
+  "collections": "pianos",
+  "layout": "pianos"
+}
