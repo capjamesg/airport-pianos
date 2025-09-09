@@ -1,0 +1,14 @@
+{
+  "iata": "HAM",
+  "title": "Hamburg Airport",
+  "city": "Hamburg",
+  "state": "Hamburg",
+  "country": "Germany",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in Terminal 2.",
+  "slug": "ham",
+  "collections": "pianos",
+  "layout": "pianos"
+}
