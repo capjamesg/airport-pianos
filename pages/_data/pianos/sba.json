@@ -1,0 +1,14 @@
+{
+  "iata": "SBA",
+  "title": "Santa Barbara Municipal Airport",
+  "city": "Santa Barbara",
+  "state": "California",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in the baggage claim area.",
+  "slug": "sba",
+  "collections": "pianos",
+  "layout": "pianos"
+}
