@@ -1,0 +1,14 @@
+{
+  "iata": "BKK",
+  "title": "Bangkok Suvarnabhumi Airport",
+  "city": "Bangkok",
+  "state": "Bangkok",
+  "country": "Thailand",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano at Gate S119.",
+  "slug": "bkk",
+  "collections": "pianos",
+  "layout": "pianos"
+}
