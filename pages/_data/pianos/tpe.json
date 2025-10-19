@@ -1,0 +1,14 @@
+{
+  "iata": "TPE",
+  "title": "Taoyuan International Airport",
+  "city": "Taipei",
+  "state": "Taipei",
+  "country": "Taiwan",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There may be a piano in this airport. The person who submitted the piano did not supply a terminal or gate. If you see the piano, let us know using the Add a Piano form linked at the top of this page so we can update the website with more accurate information.",
+  "slug": "tpe",
+  "collections": "pianos",
+  "layout": "pianos"
+}
