@@ -1,0 +1,14 @@
+{
+  "iata": "YQB",
+  "title": "Québec City Jean Lesage International Airport",
+  "city": "Québec",
+  "state": "Québec",
+  "country": "Canada",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in Québec City airport. The last reported location was the area around Gate 30.",
+  "slug": "yqb",
+  "collections": "pianos",
+  "layout": "pianos"
+}
