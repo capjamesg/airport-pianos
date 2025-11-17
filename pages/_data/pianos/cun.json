@@ -1,0 +1,14 @@
+{
+  "iata": "CUN",
+  "title": "Cancún International Airport",
+  "city": "Cancún",
+  "state": "Cancún",
+  "country": "Mexico",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in Terminal 2 in Cancún International Airport.",
+  "slug": "cun",
+  "collections": "pianos",
+  "layout": "pianos"
+}
