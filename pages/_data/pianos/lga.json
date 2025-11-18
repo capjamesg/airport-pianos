@@ -10,7 +10,7 @@
     "hasPiano": "false",
     "pianoShortLocation": "N/A",
     "lastConfirmed": "N/A",
-    "description": "LaGuardia Airport does not have a piano in Terminal 2. No information has been submitted for other terminals.",
+    "description": "LaGuardia Airport does not have a piano in Terminal 2. The piano may be at Gate 53. No information has been submitted for other terminals.",
     "slug": "lga",
     "layout": "pianos",
     "collections": "pianos"
