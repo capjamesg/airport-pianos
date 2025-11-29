@@ -1,0 +1,14 @@
+{
+  "iata": "DOH",
+  "title": "Hamad International Airport, Doha",
+  "city": "Doha",
+  "state": "Doha",
+  "country": "Qatar",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in a bar in the Doha Hamad International Airport airport. It is unclear if the piano is playable based on the limited information submitted to this website. If you see the piano and have a more precise location, and know if it is playable, please submit more information via the \"Add a Piano\" link at the top of this page.",
+  "slug": "doh",
+  "collections": "pianos",
+  "layout": "pianos"
+}
