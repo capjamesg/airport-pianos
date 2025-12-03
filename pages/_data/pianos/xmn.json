@@ -1,0 +1,14 @@
+{
+  "iata": "XMN",
+  "title": "Xiamen Gaoqi International Airport",
+  "city": "Xiamen",
+  "state": "Xiamen",
+  "country": "China",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in terminal T3 in Xiamen Gaoqi International Airport.",
+  "slug": "xmn",
+  "collections": "pianos",
+  "layout": "pianos"
+}
