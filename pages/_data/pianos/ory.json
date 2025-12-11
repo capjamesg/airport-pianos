@@ -1,0 +1,14 @@
+{
+  "iata": "ORY",
+  "title": "Paris Orly Airport",
+  "city": "Paris",
+  "state": "Paris",
+  "country": "France",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano to play in Terminal 4 of Paris Orly Airport.",
+  "slug": "ory",
+  "collections": "pianos",
+  "layout": "pianos"
+}
