@@ -1,0 +1,14 @@
+{
+  "iata": "LCA",
+  "title": "Larnaca International Airport - Glafcos Clerides",
+  "city": "Larnaca",
+  "state": "Larnaca",
+  "country": "Cyprus",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2025,
+  "description": "There is a piano in Larnaca International Airport at the entrance check-in counters.",
+  "slug": "lca",
+  "collections": "pianos",
+  "layout": "pianos"
+}
