@@ -1,0 +1,14 @@
+{
+  "iata": "CHQ",
+  "title": "Chania International Airport",
+  "city": "Chania",
+  "state": "Chania",
+  "country": "Greece",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2026,
+  "description": "There is a piano in the entrance hall of Chania International Airport.",
+  "slug": "chq",
+  "collections": "pianos",
+  "layout": "pianos"
+}
