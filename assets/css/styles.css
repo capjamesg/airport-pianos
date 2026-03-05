@@ -2,10 +2,13 @@
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
 }
+html {
+    color-scheme: light dark;
+}
 html, body {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: light-dark(#f9f9f9, black);
 }
 p, li {
     line-height: 1.5;
@@ -52,7 +55,7 @@ code {
     padding: 2px 4px;
 }
 a {
-    color: #734f96;
+    color: light-dark(#734f96, #cd99ff);
     text-decoration: none;
 }
 a:hover {
@@ -141,6 +144,6 @@ h1, h2 {
 }
 table a:focus {
     color: white;
-    background-color: #734f96;
+    background-color: light-dark(#734f96, #cd99ff);
     outline: black;
 }
