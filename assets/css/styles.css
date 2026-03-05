@@ -132,8 +132,6 @@ aside {
 input {
     width: 100%;
     font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 0.25rem;
 }
 #map {
     height: 200px;
@@ -146,4 +144,9 @@ table a:focus {
     color: white;
     background-color: light-dark(#734f96, #cd99ff);
     outline: black;
+}
+input {
+    padding: 0.25rem 0.5rem;
+    border: 2px solid light-dark(black, #bcbcbc);
+    border-radius: 0;
 }
