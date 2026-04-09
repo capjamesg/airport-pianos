@@ -1,0 +1,14 @@
+{
+  "iata": "BDL",
+  "title": "Bradley International Airport ",
+  "city": "Windsor Locks",
+  "state": "Connecticut",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": "February 2026",
+  "description": "There is a piano in BDL airport to the right immediately past security. The piano may not be for public use.",
+  "slug": "bdl",
+  "collections": "pianos",
+  "layout": "pianos"
+}
