@@ -34,7 +34,8 @@ title: Find an Airport Piano
 <table class="h-feed">
     <thead>
         <tr>
-            <th>Location</th>
+            <th>Airport Name</th>
+            <th>City</th>
             <th>Code</th>
             <th>Last Confirmed</th>
         </tr>
@@ -43,6 +44,7 @@ title: Find an Airport Piano
     {% for airport in site.pianoss | sort (attribute='iata') %}
     <tr class="h-entry">
         <td><a href="/pianos/{{airport.slug}}/" class="u-url p-name">{{airport.title}}</a></td>
+        <td>{{city}}</td>
         <td>{{airport.iata}}</td>
         <td>{% if airport.lastConfirmed %}{{ airport.lastConfirmed }}{% endif %}</td>
     </tr>
