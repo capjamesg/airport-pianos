@@ -1,0 +1,14 @@
+{
+  "iata": "PDX",
+  "title": "Portland International Airport ",
+  "city": "Portland",
+  "state": "Oregon",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": 2026,
+  "description": "There is a piano in PDX airport between gates C15 and C16.",
+  "slug": "pdx",
+  "collections": "pianos",
+  "layout": "pianos"
+}
