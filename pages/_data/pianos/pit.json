@@ -1,0 +1,14 @@
+{
+  "iata": "PIT",
+  "title": "Pittsburgh International Airport ",
+  "city": "Pittsburgh",
+  "state": "Pennsylvania",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": "February 2026",
+  "description": "There is a grand piano available to play at PIT airport on the Baggage Claim floor.",
+  "slug": "pit",
+  "collections": "pianos",
+  "layout": "pianos"
+}
