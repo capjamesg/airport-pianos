@@ -1,0 +1,14 @@
+{
+  "iata": "GOA",
+  "title": "Genova City Airport",
+  "city": "Genova",
+  "state": "Genova",
+  "country": "Italy",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": "March 2026",
+  "description": "There is a piano available to play in this airport but the person who submitted the piano did not say where it is. If you see a piano, please let us know so we can update the website!",
+  "slug": "goa",
+  "collections": "pianos",
+  "layout": "pianos"
+}
