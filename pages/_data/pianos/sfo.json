@@ -1,0 +1,14 @@
+{
+  "iata": "SFO",
+  "title": "San Francisco International Airport ",
+  "city": "San Francisco",
+  "state": "California",
+  "country": "United States",
+  "zoom": "12",
+  "hasPiano": "true",
+  "lastConfirmed": "March 2026",
+  "description": "There is a piano at SFO in Terminal 1, just past TSA, to the left, next to Tony's Pizza Napoletana.",
+  "slug": "sfo",
+  "collections": "pianos",
+  "layout": "pianos"
+}
